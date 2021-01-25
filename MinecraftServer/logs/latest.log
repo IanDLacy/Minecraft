@@ -1,0 +1,203 @@
+[04:35:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:35:42] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:35:42] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:35:42] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:35:42] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:35:42] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:35:42] [main/INFO]: Reloading ResourceManager: Default
+[04:35:45] [Worker-Main-2/INFO]: Loaded 7 recipes
+[04:35:46] [Worker-Main-2/INFO]: Loaded 927 advancements
+[04:35:50] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[04:35:50] [Server thread/INFO]: Loading properties
+[04:35:50] [Server thread/INFO]: Default game type: SURVIVAL
+[04:35:50] [Server thread/INFO]: Generating keypair
+[04:35:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:35:50] [Server thread/INFO]: Using epoll channel type
+[04:35:50] [Server thread/INFO]: Preparing level "The Bois"
+[04:35:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:35:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:35:54] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[04:35:55] [Server thread/INFO]: Preparing spawn area: 52%
+[04:35:56] [Server thread/INFO]: Time elapsed: 5035 ms
+[04:35:56] [Server thread/INFO]: Done (5.233s)! For help, type "help"
+[04:35:56] [Server thread/INFO]: Starting GS4 status listener
+[04:35:56] [Server thread/INFO]: Thread Query Listener started
+[04:35:56] [Server thread/INFO]: Starting remote control listener
+[04:35:56] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[04:35:56] [Server thread/INFO]: Thread RCON Listener started
+[04:35:56] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[04:35:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[04:36:03] [User Authenticator #1/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[04:36:03] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:64911] logged in with entity id 346 at (-2.5, 74.0, -183.5)
+[04:36:03] [Server thread/INFO]: xXkwispyXx joined the game
+[04:36:13] [User Authenticator #2/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
+[04:36:13] [Server thread/INFO]: Djdominique[/67.194.228.220:53814] logged in with entity id 358 at (-2.5, 64.0, -200.5)
+[04:36:13] [Server thread/INFO]: Djdominique joined the game
+[04:36:19] [Server thread/INFO]: Djdominique has made the advancement [Stone Age]
+[04:36:29] [User Authenticator #3/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[04:36:29] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:31810] logged in with entity id 380 at (2.5, 64.0, -198.5)
+[04:36:29] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[04:37:10] [Server thread/INFO]: xXkwispyXx has made the advancement [Monster Hunter]
+[04:37:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[04:38:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2301ms or 46 ticks behind
+[04:38:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[04:39:16] [Server thread/INFO]: xXkwispyXx has made the advancement [Stone Age]
+[04:39:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2732ms or 54 ticks behind
+[04:39:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10062ms or 201 ticks behind
+[04:40:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6244ms or 124 ticks behind
+[04:42:32] [Server thread/INFO]: /advancement (grant|revoke)
+[04:42:32] [Server thread/INFO]: /attribute <target> <attribute> (base|get|modifier)
+[04:42:32] [Server thread/INFO]: /ban <targets> [<reason>]
+[04:42:32] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[04:42:32] [Server thread/INFO]: /banlist [ips|players]
+[04:42:32] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
+[04:42:32] [Server thread/INFO]: /clear [<targets>]
+[04:42:32] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
+[04:42:32] [Server thread/INFO]: /data (get|merge|modify|remove)
+[04:42:32] [Server thread/INFO]: /datapack (disable|enable|list)
+[04:42:32] [Server thread/INFO]: /debug (report|start|stop)
+[04:42:32] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
+[04:42:32] [Server thread/INFO]: /deop <targets>
+[04:42:32] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
+[04:42:32] [Server thread/INFO]: /effect (clear|give)
+[04:42:32] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[04:42:32] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
+[04:42:32] [Server thread/INFO]: /experience (add|query|set)
+[04:42:32] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
+[04:42:32] [Server thread/INFO]: /forceload (add|query|remove)
+[04:42:32] [Server thread/INFO]: /function <name>
+[04:42:32] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
+[04:42:32] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
+[04:42:32] [Server thread/INFO]: /give <targets> <item> [<count>]
+[04:42:32] [Server thread/INFO]: /help [<command>]
+[04:42:32] [Server thread/INFO]: /kick <targets> [<reason>]
+[04:42:32] [Server thread/INFO]: /kill [<targets>]
+[04:42:32] [Server thread/INFO]: /list [uuids]
+[04:42:32] [Server thread/INFO]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
+[04:42:32] [Server thread/INFO]: /locatebiome <biome>
+[04:42:32] [Server thread/INFO]: /loot (give|insert|replace|spawn)
+[04:42:32] [Server thread/INFO]: /me <action>
+[04:42:32] [Server thread/INFO]: /msg <targets> <message>
+[04:42:32] [Server thread/INFO]: /op <targets>
+[04:42:32] [Server thread/INFO]: /pardon <targets>
+[04:42:32] [Server thread/INFO]: /pardon-ip <target>
+[04:42:32] [Server thread/INFO]: /particle <name> [<pos>]
+[04:42:32] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
+[04:42:32] [Server thread/INFO]: /recipe (give|take)
+[04:42:32] [Server thread/INFO]: /reload
+[04:42:32] [Server thread/INFO]: /replaceitem (block|entity)
+[04:42:32] [Server thread/INFO]: /save-all [flush]
+[04:42:32] [Server thread/INFO]: /save-off
+[04:42:32] [Server thread/INFO]: /save-on
+[04:42:32] [Server thread/INFO]: /say <message>
+[04:42:32] [Server thread/INFO]: /schedule (clear|function)
+[04:42:32] [Server thread/INFO]: /scoreboard (objectives|players)
+[04:42:32] [Server thread/INFO]: /seed
+[04:42:32] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[04:42:32] [Server thread/INFO]: /setidletimeout <minutes>
+[04:42:32] [Server thread/INFO]: /setworldspawn [<pos>]
+[04:42:32] [Server thread/INFO]: /spawnpoint [<targets>]
+[04:42:32] [Server thread/INFO]: /spectate [<target>]
+[04:42:32] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
+[04:42:32] [Server thread/INFO]: /stop
+[04:42:32] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
+[04:42:32] [Server thread/INFO]: /summon <entity> [<pos>]
+[04:42:32] [Server thread/INFO]: /tag <targets> (add|list|remove)
+[04:42:32] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
+[04:42:32] [Server thread/INFO]: /teammsg <message>
+[04:42:32] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
+[04:42:32] [Server thread/INFO]: /tell -> msg
+[04:42:32] [Server thread/INFO]: /tellraw <targets> <message>
+[04:42:32] [Server thread/INFO]: /time (add|query|set)
+[04:42:32] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
+[04:42:32] [Server thread/INFO]: /tm -> teammsg
+[04:42:32] [Server thread/INFO]: /tp -> teleport
+[04:42:32] [Server thread/INFO]: /trigger <objective> [add|set]
+[04:42:32] [Server thread/INFO]: /w -> msg
+[04:42:32] [Server thread/INFO]: /weather (clear|rain|thunder)
+[04:42:32] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
+[04:42:32] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
+[04:42:32] [Server thread/INFO]: /xp -> experience
+[04:43:14] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[04:43:14] [Server thread/INFO]: /op<--[HERE]
+[04:43:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[04:43:32] [Server thread/INFO]: op<--[HERE]
+[04:44:02] [Server thread/INFO]: xXkwispyXx has made the advancement [Getting an Upgrade]
+[04:44:34] [Server thread/INFO]: Incorrect argument for command
+[04:44:34] [Server thread/INFO]: /op <--[HERE]
+[04:44:43] [Server thread/INFO]: Made 08e2fb8e85e43f16 a server operator
+[04:47:37] [Server thread/INFO]: xXkwispyXx was shot by Skeleton
+[04:47:41] [Server thread/INFO]: Djdominique has made the advancement [Getting an Upgrade]
+[04:47:43] [Server thread/INFO]: Djdominique walked into fire whilst fighting Skeleton
+[04:49:57] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[04:50:52] [Server thread/INFO]: Djdominique lost connection: Disconnected
+[04:50:52] [Server thread/INFO]: Djdominique left the game
+[04:50:57] [User Authenticator #4/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
+[04:50:57] [Server thread/INFO]: Djdominique[/67.194.228.220:54069] logged in with entity id 2858 at (-8.341018002667502, 74.0, -188.2912328354311)
+[04:50:57] [Server thread/INFO]: Djdominique joined the game
+[04:51:59] [Server thread/INFO]: Djdominique lost connection: Disconnected
+[04:51:59] [Server thread/INFO]: Djdominique left the game
+[04:52:54] [User Authenticator #5/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
+[04:52:54] [Server thread/INFO]: Djdominique[/67.194.228.220:54205] logged in with entity id 3212 at (-15.488504558686213, 75.0, -186.26004544140466)
+[04:52:54] [Server thread/INFO]: Djdominique joined the game
+[04:53:38] [Server thread/INFO]: [08e2fb8e85e43f16: Made Djdominique a server operator]
+[04:54:08] [Server thread/INFO]: [08e2fb8e85e43f16: Made xXkwispyXx a server operator]
+[04:54:50] [Server thread/INFO]: xXkwispyXx hit the ground too hard
+[04:55:24] [Server thread/INFO]: 08e2fb8e85e43f16 has made the advancement [Stone Age]
+[04:56:23] [Server thread/INFO]: 08e2fb8e85e43f16 has made the advancement [Getting an Upgrade]
+[04:56:24] [Server thread/INFO]: xXkwispyXx has made the advancement [Acquire Hardware]
+[05:01:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2203ms or 44 ticks behind
+[05:02:45] [Server thread/INFO]: 08e2fb8e85e43f16 was blown up by Creeper
+[05:05:36] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[05:06:38] [Server thread/INFO]: xXkwispyXx has made the advancement [Isn't It Iron Pick]
+[05:11:27] [Server thread/INFO]: 08e2fb8e85e43f16 was shot by Pillager
+[05:11:56] [Server thread/INFO]: xXkwispyXx was shot by Skeleton
+[05:12:00] [Server thread/INFO]: 08e2fb8e85e43f16 has made the advancement [Monster Hunter]
+[05:12:19] [Server thread/INFO]: [08e2fb8e85e43f16: The difficulty has been set to Easy]
+[05:14:31] [Server thread/INFO]: Djdominique has made the advancement [Acquire Hardware]
+[05:14:39] [Server thread/INFO]: Djdominique has made the advancement [Isn't It Iron Pick]
+[05:27:22] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 1 blocks]
+[05:32:05] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 11 blocks]
+[05:32:45] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 11 blocks]
+[05:33:34] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 11 blocks]
+[05:35:19] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 11 blocks]
+[05:36:30] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 11 blocks]
+[05:38:29] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 7 blocks]
+[05:39:17] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 1 blocks]
+[05:41:39] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 100 blocks]
+[05:42:05] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 100 blocks]
+[05:53:49] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to Djdominique]
+[05:56:01] [Server thread/INFO]: 08e2fb8e85e43f16 has made the advancement [Sweet Dreams]
+[05:56:01] [Server thread/INFO]: Djdominique has made the advancement [Diamonds!]
+[05:58:45] [Server thread/INFO]: xXkwispyXx has made the advancement [Sweet Dreams]
+[05:58:56] [Server thread/INFO]: <xXkwispyXx> go :clap: to :clap: bed :clap:
+[05:59:32] [Server thread/INFO]: Djdominique has made the advancement [Sweet Dreams]
+[06:01:15] [Server thread/INFO]: xXkwispyXx has made the advancement [Suit Up]
+[06:19:09] [Server thread/INFO]: Djdominique lost connection: Disconnected
+[06:19:09] [Server thread/INFO]: Djdominique left the game
+[06:22:30] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[06:22:30] [Server thread/INFO]: xXkwispyXx left the game
+[06:25:33] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[06:25:46] [Server thread/INFO]: [08e2fb8e85e43f16: Stopping the server]
+[06:25:46] [Server thread/INFO]: Stopping server
+[06:25:46] [Server thread/INFO]: Saving players
+[06:25:46] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Server closed
+[06:25:46] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[06:25:46] [Server thread/INFO]: Saving worlds
+[06:25:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[06:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (The Bois): All chunks are saved
+[06:25:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[06:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:25:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[06:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (The Bois): All chunks are saved
+[06:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:25:47] [Server thread/INFO]: Thread RCON Listener stopped
+[06:25:47] [Server thread/INFO]: Thread Query Listener stopped

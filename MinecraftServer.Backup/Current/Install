@@ -1,0 +1,39 @@
+#!/bin/sh
+echo "\n\nUpdating Package Lists :\n"
+echo "$ sudo apt update\n"
+sudo apt update
+echo "\n\nUpdating Packages :\n"
+echo "$ sudo apt upgrade\n"
+sudo apt upgrade
+echo "\n\nInstalling OpenJDK 15 :\n"
+echo "$ sudo apt install openjdk-15-jdk\n"
+sudo apt install openjdk-15-jdk
+echo "\n\nDownloading Minecraft Server :\n"
+echo "$ curl -O https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar\n"
+curl -O https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+echo "\n\nCreating EULA File :\n"
+echo "$ echo \"eula=true\" > ./eula.txt\n"
+echo "eula=true" > ./eula.txt
+echo "\n\nCreating Server Properties File :\n"
+echo "$ touch ./server.properties\n"
+touch ./server.properties
+echo "\n\nInitializing Minecraft Server :\n"
+echo "$ java -jar ./server.jar --nogui --initSettings\n"
+java -jar ./server.jar --nogui --initSettings
+echo "\n\nReviewing Server Properties File :\n"
+echo "$ nano ./server.properties\n"
+nano ./server.properties
+echo "\n\nCreating Help Script :\n"
+echo "$ echo \"#!/bin/sh\\\ncd $(pwd)\\\nexec java -jar $(pwd)/server.jar --nogui --help\" > ./Help\n"
+echo "$ chmod +x ./Help\n"
+echo "#!/bin/sh\ncd $(pwd)\nexec java -jar $(pwd)/server.jar --nogui --help" > ./Help
+chmod +x ./Help
+echo "\n\nCreating Start Script :\n"
+echo "$ echo \"#!/bin/sh\\\ncd $(pwd)\\\nexec java -Xmx1024M -Xms1024M -jar $(pwd)/server.jar --nogui\" > ./Start\n"
+echo "$ chmod +x ./Start\n"
+echo "#!/bin/sh\ncd $(pwd)\nexec java -Xmx1024M -Xms1024M -jar $(pwd)/server.jar --nogui" > ./Start
+chmod +x ./Start
+echo "\n\nListing Directory Contents :\n"
+echo "$ ls -la ./\n"
+ls -la ./
+echo "\n\nCompleting Installation :\n\nExecute Start Script To Launch Minecraft Server\n\n"
