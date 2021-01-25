@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /home/q5x7e3wp/MinecraftServer
-exec java -Xmx1024M -Xms1024M -jar /home/q5x7e3wp/MinecraftServer/server.jar --nogui --bonusChest
+cd /home/q5x7e3wp/SignificantBrothers/MinecraftServer
+exec java -Xmx2048M -Xms2048M -jar /home/q5x7e3wp/SignificantBrothers/MinecraftServer/server.jar --nogui --bonusChest

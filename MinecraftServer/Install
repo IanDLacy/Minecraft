@@ -5,9 +5,9 @@ sudo apt update
 echo "\n\nUpdating Packages :\n"
 echo "$ sudo apt upgrade\n"
 sudo apt upgrade
-echo "\n\nInstalling OpenJDK 15 :\n"
-echo "$ sudo apt install openjdk-15-jdk\n"
-sudo apt install openjdk-15-jdk
+echo "\n\nInstalling Java Development Kit :\n"
+echo "$ sudo apt install default-jdk\n"
+sudo apt install default-jdk
 echo "\n\nDownloading Minecraft Server :\n"
 echo "$ curl -O https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar\n"
 curl -O https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
@@ -29,9 +29,9 @@ echo "$ chmod +x ./Help\n"
 echo "#!/bin/sh\ncd $(pwd)\nexec java -jar $(pwd)/server.jar --nogui --help" > ./Help
 chmod +x ./Help
 echo "\n\nCreating Start Script :\n"
-echo "$ echo \"#!/bin/sh\\\ncd $(pwd)\\\nexec java -Xmx1024M -Xms1024M -jar $(pwd)/server.jar --nogui\" > ./Start\n"
+echo "$ echo \"#!/bin/sh\\\ncd $(pwd)\\\nexec java -Xmx2048M -Xms2048M -jar $(pwd)/server.jar --nogui --bonusChest\" > ./Start\n"
 echo "$ chmod +x ./Start\n"
-echo "#!/bin/sh\ncd $(pwd)\nexec java -Xmx1024M -Xms1024M -jar $(pwd)/server.jar --nogui" > ./Start
+echo "#!/bin/sh\ncd $(pwd)\nexec java -Xmx2048M -Xms2048M -jar $(pwd)/server.jar --nogui --bonusChest" > ./Start
 chmod +x ./Start
 echo "\n\nListing Directory Contents :\n"
 echo "$ ls -la ./\n"
