@@ -1,4 +1,4 @@
 #!/bin/sh
 cd Environments/SignificantBrothers/
-exec java -Xmx2048M -Xms2048M -jar ../../Servers/Vanilla/Server.jar --nogui --bonusChest --universe ../../Worlds/ --world SignificantBrothers
-exec ../../Scripts/AutomaticAddCommitPush
+java -Xmx2048M -Xms2048M -jar ../../Servers/Vanilla/Server.jar --nogui --bonusChest --universe ../../Worlds/ --world SignificantBrothers
+../../Scripts/AutomaticAddCommitPush
