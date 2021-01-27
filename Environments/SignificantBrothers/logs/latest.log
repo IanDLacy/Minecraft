@@ -1,91 +1,74 @@
-[13:01:54] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:01:55] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:01:55] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:01:55] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:01:55] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:01:55] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:01:55] [main/INFO]: Reloading ResourceManager: Default
-[13:01:57] [Worker-Main-2/INFO]: Loaded 7 recipes
-[13:01:58] [Worker-Main-2/INFO]: Loaded 927 advancements
-[13:02:01] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[13:02:01] [Server thread/INFO]: Loading properties
-[13:02:01] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[13:02:01] [Server thread/INFO]: Default game type: SURVIVAL
-[13:02:01] [Server thread/INFO]: Generating keypair
-[13:02:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:02:01] [Server thread/INFO]: Using epoll channel type
-[13:02:02] [Server thread/INFO]: Preparing level "SignificantBrothers"
-[13:02:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:02:07] [Server thread/INFO]: Preparing spawn area: 8%
-[13:02:07] [Server thread/INFO]: Preparing spawn area: 28%
-[13:02:08] [Server thread/INFO]: Time elapsed: 5833 ms
-[13:02:08] [Server thread/INFO]: Done (6.056s)! For help, type "help"
-[13:02:08] [Server thread/INFO]: Starting GS4 status listener
-[13:02:08] [Server thread/INFO]: Thread Query Listener started
-[13:02:08] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[13:03:24] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[13:03:24] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:3863] logged in with entity id 198 at (6.5576430729590935, 256.0, 8.86173063066276)
-[13:03:24] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[13:03:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[13:03:46] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
-[13:04:04] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[13:04:25] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 6.1250280808250395, 181.16717110368884, 8.959227766287572]
-[13:04:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
-[13:04:51] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
-[13:04:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2147ms or 42 ticks behind
-[13:05:02] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -107.5, 68.0, -219.5]
-[13:05:07] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[13:05:09] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -107.5, 68.0, -219.5]
-[13:05:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
-[13:05:13] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[13:05:15] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -107.5, 68.0, -219.5]
-[13:05:18] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[13:05:33] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 259.0, 8.5]
-[13:06:04] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[13:06:04] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[13:06:15] [User Authenticator #2/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[13:06:15] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:3889] logged in with entity id 1003 at (9.287939028444713, 256.0, 11.039028841419395)
-[13:06:15] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[13:06:40] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[13:06:40] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[13:08:05] [Server thread/INFO]: Reloading!
-[13:08:05] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:08:05] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:08:05] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:08:05] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:08:05] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:08:05] [Server thread/INFO]: Reloading ResourceManager: Default
-[13:08:06] [Server thread/INFO]: Loaded 7 recipes
-[13:08:06] [Server thread/INFO]: Loaded 927 advancements
-[13:08:13] [User Authenticator #3/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[13:08:13] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:3909] logged in with entity id 1010 at (9.287939028444713, 256.0, 11.039028841419395)
-[13:08:13] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[13:08:34] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[13:08:34] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[13:08:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:08:40] [Server thread/INFO]: stopsave-all<--[HERE]
-[13:08:45] [Server thread/INFO]: Saving the game (this may take a moment!)
-[13:08:46] [Server thread/INFO]: Saved the game
-[13:08:49] [Server thread/INFO]: Stopping the server
-[13:08:49] [Server thread/INFO]: Stopping server
-[13:08:49] [Server thread/INFO]: Saving players
-[13:08:49] [Server thread/INFO]: Saving worlds
-[13:08:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
-[13:08:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[13:08:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
-[13:08:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:08:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
-[13:08:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:08:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[13:08:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:08:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:08:49] [Server thread/INFO]: Thread Query Listener stopped
+[13:50:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:50:02] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:50:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:50:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:50:02] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:50:02] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:50:02] [main/INFO]: Reloading ResourceManager: Default
+[13:50:04] [Worker-Main-2/INFO]: Loaded 7 recipes
+[13:50:04] [Worker-Main-2/INFO]: Loaded 927 advancements
+[13:50:08] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[13:50:08] [Server thread/INFO]: Loading properties
+[13:50:08] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[13:50:08] [Server thread/INFO]: Default game type: SURVIVAL
+[13:50:08] [Server thread/INFO]: Generating keypair
+[13:50:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:50:08] [Server thread/INFO]: Using epoll channel type
+[13:50:09] [Server thread/INFO]: Preparing level "SignificantBrothers"
+[13:50:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:50:11] [Server thread/INFO]: Preparing spawn area: 0%
+[13:50:11] [Server thread/INFO]: Preparing spawn area: 0%
+[13:50:11] [Server thread/INFO]: Preparing spawn area: 0%
+[13:50:11] [Server thread/INFO]: Preparing spawn area: 0%
+[13:50:11] [Server thread/INFO]: Preparing spawn area: 0%
+[13:50:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:50:12] [Server thread/INFO]: Preparing spawn area: 37%
+[13:50:12] [Server thread/INFO]: Time elapsed: 3661 ms
+[13:50:12] [Server thread/INFO]: Done (3.837s)! For help, type "help"
+[13:50:12] [Server thread/INFO]: Starting GS4 status listener
+[13:50:12] [Server thread/INFO]: Thread Query Listener started
+[13:50:12] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[13:50:35] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[13:50:36] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:1139] logged in with entity id 238 at (-12.560062519485768, 74.25, -179.11250001192093)
+[13:50:36] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[13:50:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[13:50:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4687ms or 93 ticks behind
+[13:51:11] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[13:51:24] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 259.0, 8.5]
+[13:51:34] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Elytra] to 08e2fb8e85e43f16]
+[13:51:57] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 3.7666443517251977,-8.331418443495494,-15.32648177964029
+[13:52:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
+[13:52:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11759ms or 235 ticks behind
+[13:52:29] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[13:52:29] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[13:53:20] [User Authenticator #2/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[13:53:20] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:1244] logged in with entity id 1072 at (-9.699999988079071, 87.0, -181.4305209906011)
+[13:53:20] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[13:54:40] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[13:55:23] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 259.0, 8.5]
+[13:55:35] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 3.586248023519083,-4.455992943074278,-16.924480406077805
+[13:56:17] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[13:56:23] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -107.5, 68.0, -219.5]
+[13:57:03] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
+[13:57:09] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[13:58:19] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[13:58:26] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -107.5, 68.0, -219.5]
+[13:58:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
+[13:58:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 259.0, 8.5]
+[14:00:28] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[14:00:42] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[14:00:42] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[14:01:51] [Server thread/INFO]: Stopping the server
+[14:01:51] [Server thread/INFO]: Stopping server
+[14:01:51] [Server thread/INFO]: Saving players
+[14:01:51] [Server thread/INFO]: Saving worlds
+[14:01:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[14:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[14:01:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[14:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:01:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[14:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[14:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:01:54] [Server thread/INFO]: Thread Query Listener stopped
