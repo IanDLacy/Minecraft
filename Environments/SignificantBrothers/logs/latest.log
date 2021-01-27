@@ -1,52 +1,735 @@
-[00:45:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:45:54] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:45:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:45:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:45:54] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:45:54] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:45:54] [main/INFO]: Reloading ResourceManager: Default
-[00:45:56] [Worker-Main-2/INFO]: Loaded 7 recipes
-[00:45:57] [Worker-Main-2/INFO]: Loaded 927 advancements
-[00:46:00] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[00:46:00] [Server thread/INFO]: Loading properties
-[00:46:00] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[00:46:00] [Server thread/INFO]: Default game type: SURVIVAL
-[00:46:00] [Server thread/INFO]: Generating keypair
-[00:46:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:46:01] [Server thread/INFO]: Using epoll channel type
-[00:46:02] [Server thread/INFO]: Preparing level "SignificantBrothers"
-[00:46:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:46:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:46:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[00:46:05] [Server thread/INFO]: Preparing spawn area: 69%
-[00:46:06] [Server thread/INFO]: Time elapsed: 4130 ms
-[00:46:06] [Server thread/INFO]: Done (4.243s)! For help, type "help"
-[00:46:06] [Server thread/INFO]: Starting GS4 status listener
-[00:46:06] [Server thread/INFO]: Thread Query Listener started
-[00:46:06] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[00:47:02] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[00:47:02] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:1189] logged in with entity id 241 at (0.4752427661839784, 63.9375, 6.006322801197236)
-[00:47:02] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[00:47:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
-[00:47:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4178ms or 83 ticks behind
-[00:47:34] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[00:47:34] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[00:48:12] [Server thread/INFO]: Stopping the server
-[00:48:12] [Server thread/INFO]: Stopping server
-[00:48:12] [Server thread/INFO]: Saving players
-[00:48:12] [Server thread/INFO]: Saving worlds
-[00:48:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
-[00:48:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[00:48:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
-[00:48:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:48:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
-[00:48:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:48:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[00:48:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:48:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:48:17] [Server thread/INFO]: Thread Query Listener stopped
+[02:40:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:40:27] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:40:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:40:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:40:27] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:40:27] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:40:27] [main/INFO]: Reloading ResourceManager: Default
+[02:40:29] [Worker-Main-2/INFO]: Loaded 7 recipes
+[02:40:30] [Worker-Main-2/INFO]: Loaded 927 advancements
+[02:40:33] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[02:40:33] [Server thread/INFO]: Loading properties
+[02:40:33] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[02:40:33] [Server thread/INFO]: Default game type: SURVIVAL
+[02:40:33] [Server thread/INFO]: Generating keypair
+[02:40:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:40:33] [Server thread/INFO]: Using epoll channel type
+[02:40:34] [Server thread/INFO]: Preparing level "SignificantBrothers"
+[02:40:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 0%
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 0%
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 0%
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 0%
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 0%
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 0%
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 0%
+[02:40:37] [Server thread/INFO]: Preparing spawn area: 27%
+[02:40:38] [Server thread/INFO]: Preparing spawn area: 30%
+[02:40:39] [Server thread/INFO]: Preparing spawn area: 51%
+[02:40:39] [Server thread/INFO]: Preparing spawn area: 51%
+[02:40:41] [Server thread/INFO]: Time elapsed: 6919 ms
+[02:40:41] [Server thread/INFO]: Done (7.078s)! For help, type "help"
+[02:40:41] [Server thread/INFO]: Starting GS4 status listener
+[02:40:41] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[02:40:41] [Server thread/INFO]: Thread Query Listener started
+[02:40:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[02:40:52] [User Authenticator #1/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[02:40:52] [User Authenticator #2/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
+[02:40:53] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:50297] logged in with entity id 325 at (21.416395818179705, 69.0, 120.89174683540215)
+[02:40:53] [Server thread/INFO]: xXkwispyXx joined the game
+[02:40:56] [Server thread/INFO]: Djdominique[/67.194.228.220:58677] logged in with entity id 326 at (29.578724788248323, 68.0, 121.49913945412554)
+[02:40:56] [Server thread/INFO]: Djdominique joined the game
+[02:41:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32525ms or 650 ticks behind
+[02:42:00] [Server thread/INFO]: Reloading!
+[02:42:00] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:42:00] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:42:00] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:42:00] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:42:00] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:42:00] [Server thread/INFO]: Reloading ResourceManager: Default
+[02:42:02] [Server thread/INFO]: Loaded 7 recipes
+[02:42:02] [Server thread/INFO]: Loaded 927 advancements
+[02:42:02] [Server thread/WARN]: xXkwispyXx moved too quickly! -9.705588125098181,-1.0,2.7498662008146653
+[02:42:07] [Server thread/WARN]: xXkwispyXx moved too quickly! -9.591009045342545,-1.0,2.747634288551424
+[02:42:07] [Server thread/WARN]: Djdominique moved too quickly! 8.314994848668558,-1.0,-5.6735570457086055
+[02:42:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28816ms or 576 ticks behind
+[02:42:15] [User Authenticator #3/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[02:42:16] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@52675557[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@3f6153be]},legacy=false] (/98.250.173.2:51935): You are not white-listed on this server!
+[02:42:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@52675557[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@3f6153be]},legacy=false] (/98.250.173.2:51935) lost connection: You are not white-listed on this server!
+[02:42:20] [User Authenticator #4/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[02:42:20] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@614c44bd[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@344fea42]},legacy=false] (/98.250.173.2:51937): You are not white-listed on this server!
+[02:42:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@614c44bd[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@344fea42]},legacy=false] (/98.250.173.2:51937) lost connection: You are not white-listed on this server!
+[02:42:24] [User Authenticator #5/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[02:42:24] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5763b71d[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@7823c51a]},legacy=false] (/98.250.173.2:51938): You are not white-listed on this server!
+[02:42:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@5763b71d[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@7823c51a]},legacy=false] (/98.250.173.2:51938) lost connection: You are not white-listed on this server!
+[02:42:26] [User Authenticator #6/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[02:42:26] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:27584] logged in with entity id 637 at (-13.155926425569872, 83.0, -176.4582805355332)
+[02:42:26] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[02:42:35] [Server thread/INFO]: [08e2fb8e85e43f16: Reloaded the whitelist]
+[02:42:44] [User Authenticator #7/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[02:42:45] [Server thread/INFO]: DwyertheRed[/98.250.173.2:51943] logged in with entity id 864 at (0.5, 64.0, 0.5)
+[02:42:45] [Server thread/INFO]: DwyertheRed joined the game
+[02:42:56] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[02:42:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28679ms or 573 ticks behind
+[02:43:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22780ms or 455 ticks behind
+[02:44:01] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 0.0,-14.86262511642482,0.014767780766106853
+[02:44:02] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 0.0,-11.433643280623432,0.0
+[02:44:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17259ms or 345 ticks behind
+[02:44:09] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 0.0,-20.302399772436104,0.0
+[02:44:10] [Server thread/INFO]: 08e2fb8e85e43f16 fell out of the world
+[02:44:16] [Server thread/WARN]: DwyertheRed moved too quickly! 0.0,-11.798174230684271,0.0
+[02:44:26] [Server thread/WARN]: DwyertheRed moved too quickly! 0.0,-19.582629563756427,0.0
+[02:44:26] [Server thread/INFO]: DwyertheRed fell out of the world
+[02:44:41] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[02:44:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24846ms or 496 ticks behind
+[02:45:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15289ms or 305 ticks behind
+[02:45:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19268ms or 385 ticks behind
+[02:46:20] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[02:46:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13986ms or 279 ticks behind
+[02:46:31] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported DwyertheRed to 8.5, 255.0, 8.5]
+[02:46:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8066ms or 161 ticks behind
+[02:47:30] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported DwyertheRed to 0.5, 64.0, 0.5]
+[02:47:38] [Server thread/INFO]: Djdominique was slain by Ravager
+[02:47:38] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[02:47:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[02:48:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4773ms or 95 ticks behind
+[02:48:06] [Server thread/INFO]: xXkwispyXx was slain by Ravager
+[02:48:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[02:48:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[02:49:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2323ms or 46 ticks behind
+[02:49:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9024ms or 180 ticks behind
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -8.813606165412324,1.0836421616033931E-5,5.409279067167432
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -8.535777598353434,0.0,5.5878718463635835
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -8.774917135993661,0.0,5.892533511556181
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -9.005581046390716,0.0,6.203629649950386
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -9.228073966800281,0.0,6.520739299585145
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -9.44272412377606,0.0,6.843453546513956
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -9.64987116648146,0.0,7.171380559864446
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -9.849862109388681,0.0,7.504146819059272
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -10.043051151747193,0.0,7.841396661143605
+[02:49:50] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -10.229788546919508,0.0,8.1827954273068
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.430139910907059,0.0,9.093683707188418
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.552813638733369,0.0,9.471398016651804
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.677235789309236,0.0,9.848804968404494
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.804777790532057,0.0,10.225319850465269
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.9364907838237855,0.0,10.60042599606102
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -5.073167487704836,0.0,10.973674304647275
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -5.215383185258105,0.0,11.34468486346158
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -5.363532095030223,0.0,11.713145542173308
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -5.517859490169002,0.0,12.078808314080376
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -5.677907243812001,0.0,12.441853970340276
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -5.843243096589731,0.0,12.802456730412175
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -6.013464700892399,0.0,13.160781032375567
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -6.188196719100205,0.0,13.516982656354799
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -6.3670882026775075,0.0,13.871209728150546
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -6.549816666933822,0.0,14.223599424105913
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -6.736078848315259,0.0,14.574283312883395
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -6.925595266158098,0.0,14.923383807237897
+[02:49:51] [Server thread/INFO]: Djdominique has made the advancement [Ol' Betsy]
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -7.117521047847362,0.0,15.27139298423144
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.215320274128004,0.0,9.397322546758673
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.346005845116821,0.0,9.767123644674726
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.462821404561339,0.0,10.139936516856665
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.565441335143561,0.0,10.515388765706177
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.653748845432773,0.0,10.893089789898127
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.727796777082574,0.0,11.272650065189353
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.787775314975619,0.0,11.653694544613003
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! 12.59536001056074,0.0,-14.006376119889268
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! 12.506008910947742,0.0,-13.64475633337102
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! 12.39070658188433,0.0,-13.29972959908963
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! 12.252501764358044,0.0,-12.96884904035322
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! 12.094482191831275,0.0,-12.649407747241355
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! 11.919790222689869,0.0,-12.33855644442717
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.8599727202496297
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved wrongly! 0.5434329442680337
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.195657087237663,0.0,9.392844668260963
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.322148661645997,0.0,9.755871194668316
+[02:49:51] [Server thread/WARN]: Boat (vehicle of xXkwispyXx) moved too quickly! -4.450100216791014,0.0,10.120024087039056
+[02:49:59] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[02:50:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20811ms or 416 ticks behind
+[02:50:25] [Server thread/INFO]: xXkwispyXx has completed the challenge [Hero of the Village]
+[02:50:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14216ms or 284 ticks behind
+[02:50:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7502ms or 150 ticks behind
+[02:51:12] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Command Block] to 08e2fb8e85e43f16]
+[02:51:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7749ms or 154 ticks behind
+[02:51:22] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Polished Blackstone Button] to 08e2fb8e85e43f16]
+[02:51:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6039ms or 120 ticks behind
+[02:51:41] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Bedrock] to 08e2fb8e85e43f16]
+[02:51:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3540ms or 70 ticks behind
+[02:52:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3004ms or 60 ticks behind
+[02:52:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3340ms or 66 ticks behind
+[02:52:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4308ms or 86 ticks behind
+[02:53:10] [Server thread/INFO]: [@: Set the time to 1000]
+[02:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5952ms or 119 ticks behind
+[02:53:18] [Server thread/INFO]: [@: Set the time to 13000]
+[02:53:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6060ms or 121 ticks behind
+[02:53:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6966ms or 139 ticks behind
+[02:54:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9229ms or 184 ticks behind
+[02:54:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9511ms or 190 ticks behind
+[02:55:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9892ms or 197 ticks behind
+[02:55:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9507ms or 190 ticks behind
+[02:55:39] [Server thread/INFO]: DwyertheRed was blown up by Creeper
+[02:55:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2188ms or 43 ticks behind
+[02:56:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2578ms or 51 ticks behind
+[02:56:33] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[02:56:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[02:56:56] [Server thread/WARN]: DwyertheRed moved too quickly! -5.431763669969314,0.0,-8.516083630615597
+[02:56:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5933ms or 118 ticks behind
+[02:57:05] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to Djdominique]
+[02:57:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6194ms or 123 ticks behind
+[02:57:27] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported DwyertheRed to 08e2fb8e85e43f16]
+[02:57:45] [Server thread/INFO]: DwyertheRed has made the advancement [Sweet Dreams]
+[02:58:37] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/4492, l='ServerLevel[The Bois]', x=-23.18, y=70.00, z=-194.71]
+[02:58:37] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/4492, l='ServerLevel[The Bois]', x=-23.18, y=70.00, z=-194.71]
+[02:58:37] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/4492, l='ServerLevel[The Bois]', x=-23.18, y=70.00, z=-194.71]
+[02:58:37] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/4492, l='ServerLevel[The Bois]', x=-23.18, y=70.00, z=-194.71]
+[02:58:38] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Warped Sign] to 08e2fb8e85e43f16]
+[02:58:51] [Server thread/INFO]: DwyertheRed was shot by Skeleton
+[02:58:55] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[02:59:35] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Dark Oak Sign] to 08e2fb8e85e43f16]
+[03:00:31] [Server thread/INFO]: DwyertheRed lost connection: Disconnected
+[03:00:31] [Server thread/INFO]: DwyertheRed left the game
+[03:01:21] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[03:02:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[03:04:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
+[03:05:11] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Spruce Pressure Plate] to 08e2fb8e85e43f16]
+[03:05:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[03:05:37] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Polished Blackstone Pressure Plate] to 08e2fb8e85e43f16]
+[03:06:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[03:06:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7522ms or 150 ticks behind
+[03:06:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6999ms or 139 ticks behind
+[03:07:03] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Crimson Sign] to 08e2fb8e85e43f16]
+[03:07:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8844ms or 176 ticks behind
+[03:07:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8119ms or 162 ticks behind
+[03:08:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14952ms or 299 ticks behind
+[03:08:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8053ms or 161 ticks behind
+[03:08:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7037ms or 140 ticks behind
+[03:09:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8706ms or 174 ticks behind
+[03:09:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7562ms or 151 ticks behind
+[03:10:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17708ms or 354 ticks behind
+[03:10:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16487ms or 329 ticks behind
+[03:11:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17253ms or 345 ticks behind
+[03:11:32] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -16383.5, 255.0, -16383.5]
+[03:11:32] [Server thread/WARN]: Entity aah['08e2fb8e85e43f16'/637, l='ServerLevel[The Bois]', x=-16383.50, y=255.00, z=-16383.50] left loaded chunk area
+[03:11:37] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! -0.173523494069741,-10.490796109028025,-0.1800341342095635
+[03:11:38] [Server thread/WARN]: Djdominique moved too quickly! -16.62605108092525,-4.508230864061673,1.8722118717381022
+[03:11:41] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 0.0,-14.685943701181003,0.0
+[03:11:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21307ms or 426 ticks behind
+[03:12:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14453ms or 289 ticks behind
+[03:12:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10837ms or 216 ticks behind
+[03:13:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9738ms or 194 ticks behind
+[03:13:13] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/8290, l='ServerLevel[The Bois]', x=-16300.55, y=68.00, z=-16331.11]
+[03:13:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10561ms or 211 ticks behind
+[03:13:38] [Server thread/INFO]: [08e2fb8e85e43f16: Changed the block at -16385, 78, -16386]
+[03:13:53] [Server thread/INFO]: [08e2fb8e85e43f16: Changed the block at -16385, 78, -16386]
+[03:14:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10524ms or 210 ticks behind
+[03:14:13] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[03:14:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[03:14:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -16383.5, 255.0, -16383.5]
+[03:14:27] [Server thread/WARN]: Entity aah['08e2fb8e85e43f16'/637, l='ServerLevel[The Bois]', x=-16383.50, y=255.00, z=-16383.50] left loaded chunk area
+[03:14:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13763ms or 275 ticks behind
+[03:14:31] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 0.0,-15.534714213396143,0.0
+[03:14:52] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[03:14:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12260ms or 245 ticks behind
+[03:15:03] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[03:15:03] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -16383.5, 255.0, -16383.5]
+[03:15:03] [Server thread/WARN]: Entity aah['08e2fb8e85e43f16'/637, l='ServerLevel[The Bois]', x=-16383.50, y=255.00, z=-16383.50] left loaded chunk area
+[03:15:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7250ms or 145 ticks behind
+[03:15:29] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[03:15:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8025ms or 160 ticks behind
+[03:15:44] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[03:15:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -16383.5, 255.0, -16383.5]
+[03:15:44] [Server thread/WARN]: Entity aah['08e2fb8e85e43f16'/637, l='ServerLevel[The Bois]', x=-16383.50, y=255.00, z=-16383.50] left loaded chunk area
+[03:15:56] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[03:15:56] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -16383.5, 255.0, -16383.5]
+[03:16:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
+[03:16:04] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -192.5]
+[03:16:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2644ms or 52 ticks behind
+[03:16:41] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -16383.5, 255.0, -16383.5]
+[03:16:41] [Server thread/WARN]: Entity aah['08e2fb8e85e43f16'/637, l='ServerLevel[The Bois]', x=-16383.50, y=255.00, z=-16383.50] left loaded chunk area
+[03:16:42] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 0.38490414919397153,-10.490796109028025,-0.18299566976929782
+[03:16:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2100ms or 42 ticks behind
+[03:17:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[03:17:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4509ms or 90 ticks behind
+[03:17:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8760ms or 175 ticks behind
+[03:18:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9531ms or 190 ticks behind
+[03:18:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10245ms or 204 ticks behind
+[03:19:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8334ms or 166 ticks behind
+[03:19:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10023ms or 200 ticks behind
+[03:19:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10101ms or 202 ticks behind
+[03:20:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10503ms or 210 ticks behind
+[03:20:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8990ms or 179 ticks behind
+[03:21:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10057ms or 201 ticks behind
+[03:21:09] [Server thread/INFO]: Djdominique has made the advancement [Best Friends Forever]
+[03:21:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12475ms or 249 ticks behind
+[03:22:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17800ms or 356 ticks behind
+[03:22:18] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.41113327089419727
+[03:22:18] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.9468068058008612
+[03:22:18] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.47573262772641556
+[03:22:18] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.9962745960051507
+[03:22:18] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.2712978703992803
+[03:22:19] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.684971032539899
+[03:22:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15241ms or 304 ticks behind
+[03:23:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18514ms or 370 ticks behind
+[03:23:17] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 17 blocks]
+[03:23:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14293ms or 285 ticks behind
+[03:24:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14999ms or 299 ticks behind
+[03:24:22] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 1521 blocks]
+[03:24:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14744ms or 294 ticks behind
+[03:25:01] [Server thread/WARN]: xXkwispyXx moved too quickly! -7.570978886592627,-1.0,6.525438398493748
+[03:25:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26614ms or 532 ticks behind
+[03:25:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24531ms or 490 ticks behind
+[03:26:28] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.26929710634732373
+[03:26:28] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.6672735214756926
+[03:26:28] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.0761605510592176
+[03:26:28] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.4940615986732837
+[03:26:28] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.9237995187522188
+[03:26:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15750ms or 315 ticks behind
+[03:26:54] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 1521 blocks]
+[03:27:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27693ms or 553 ticks behind
+[03:27:39] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 6.127983949781161,0.0,-8.598249100619086
+[03:27:39] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 6.404108320094714,0.0,-9.091304569554325
+[03:27:39] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 6.686999448032548,0.0,-9.580600323204976
+[03:27:39] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 6.973511333060543,0.0,-10.06788432816748
+[03:27:39] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 7.261960613017372,0.0,-10.554091886516915
+[03:27:39] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 7.551446554373136,0.0,-11.039723459745716
+[03:27:39] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 7.842674223490896,0.0,-11.524331090901626
+[03:27:41] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 5.9379980171221405,0.09340793910909895,-8.493917501127328
+[03:27:42] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.015208910069532
+[03:27:42] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.5601952931077676
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 8.738590415237468,-1.0,-5.255751071461674
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 8.95956143081635,-1.0,-5.730297359235493
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 9.093112998728152,-1.0,-6.246641713992034
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 9.15512491557497,-1.0,-6.785627973645802
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 9.137888175339446,-1.0,-7.332018992455261
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 9.065477549379743,-1.0,-7.879545149011193
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved too quickly! 8.985794263993018,-1.0,-8.347488376081543
+[03:27:46] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 3.0
+[03:27:47] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 2.2680036206524967
+[03:27:47] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.9880986482359513
+[03:27:47] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.5110750199779641
+[03:27:47] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.0484256648654267
+[03:27:47] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.60448046378874
+[03:27:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29106ms or 582 ticks behind
+[03:28:27] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.4127543117261041
+[03:28:27] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.9080126815780716
+[03:28:27] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.3774111131707514
+[03:28:27] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 1.8351566118158498
+[03:28:27] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 2.3236380349553767
+[03:28:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18030ms or 360 ticks behind
+[03:29:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21256ms or 425 ticks behind
+[03:29:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16033ms or 320 ticks behind
+[03:30:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19744ms or 394 ticks behind
+[03:30:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23099ms or 461 ticks behind
+[03:31:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23474ms or 469 ticks behind
+[03:32:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20846ms or 416 ticks behind
+[03:32:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14545ms or 290 ticks behind
+[03:33:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28747ms or 574 ticks behind
+[03:33:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28308ms or 566 ticks behind
+[03:34:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29020ms or 580 ticks behind
+[03:35:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21528ms or 430 ticks behind
+[03:35:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22067ms or 441 ticks behind
+[03:36:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22895ms or 457 ticks behind
+[03:37:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18664ms or 373 ticks behind
+[03:37:35] [Server thread/WARN]: xXkwispyXx moved too quickly! 4.089551542965438,-2.0,-9.111683050841748
+[03:37:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34909ms or 698 ticks behind
+[03:38:04] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3375 blocks]
+[03:38:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15543ms or 310 ticks behind
+[03:38:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11809ms or 236 ticks behind
+[03:39:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11044ms or 220 ticks behind
+[03:39:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12069ms or 241 ticks behind
+[03:40:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8732ms or 174 ticks behind
+[03:40:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6992ms or 139 ticks behind
+[03:40:35] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 977 blocks]
+[03:40:55] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 977 blocks]
+[03:41:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12612ms or 252 ticks behind
+[03:41:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6683ms or 133 ticks behind
+[03:41:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3302ms or 66 ticks behind
+[03:42:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4748ms or 94 ticks behind
+[03:42:08] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[03:42:08] [Server thread/INFO]: xXkwispyXx left the game
+[03:42:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5593ms or 111 ticks behind
+[03:42:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7755ms or 155 ticks behind
+[03:42:56] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 1538 blocks]
+[03:43:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6961ms or 139 ticks behind
+[03:43:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7548ms or 150 ticks behind
+[03:43:36] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4887 blocks]
+[03:43:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4051ms or 81 ticks behind
+[03:44:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4216ms or 84 ticks behind
+[03:44:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3083ms or 61 ticks behind
+[03:44:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3243ms or 64 ticks behind
+[03:44:53] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[03:45:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4794ms or 95 ticks behind
+[03:45:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14094ms or 281 ticks behind
+[03:46:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13694ms or 273 ticks behind
+[03:46:07] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 976 blocks]
+[03:46:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15311ms or 306 ticks behind
+[03:46:45] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 2 blocks]
+[03:46:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11542ms or 230 ticks behind
+[03:47:12] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 975 blocks]
+[03:47:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13862ms or 277 ticks behind
+[03:47:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8712ms or 174 ticks behind
+[03:48:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8056ms or 161 ticks behind
+[03:48:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9005ms or 180 ticks behind
+[03:49:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8162ms or 163 ticks behind
+[03:49:18] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4098 blocks]
+[03:49:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16833ms or 336 ticks behind
+[03:49:50] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4098 blocks]
+[03:50:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17208ms or 344 ticks behind
+[03:50:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11115ms or 222 ticks behind
+[03:50:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4098 blocks]
+[03:50:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11009ms or 220 ticks behind
+[03:51:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11491ms or 229 ticks behind
+[03:51:36] [Server thread/INFO]: Djdominique lost connection: Disconnected
+[03:51:36] [Server thread/INFO]: Djdominique left the game
+[03:51:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3003ms or 60 ticks behind
+[03:51:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3009 blocks]
+[03:52:43] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Glowstone] to 08e2fb8e85e43f16]
+[03:56:08] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 723 blocks]
+[03:57:11] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 812 blocks]
+[04:03:11] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4092 blocks]
+[04:03:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2136ms or 42 ticks behind
+[04:03:46] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3009 blocks]
+[04:04:42] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 255.0, 0.5]
+[04:04:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2177ms or 43 ticks behind
+[04:04:50] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[04:05:01] [Server thread/INFO]: [08e2fb8e85e43f16: Gamerule doDaylightCycle is now set to: false]
+[04:10:42] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 1352 blocks]
+[04:14:36] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Redstone Lamp] to 08e2fb8e85e43f16]
+[04:15:44] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Block of Redstone] to 08e2fb8e85e43f16]
+[04:15:49] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Redstone Dust] to 08e2fb8e85e43f16]
+[04:32:34] [Server thread/INFO]: [@: Gave 1 [Elytra] to 08e2fb8e85e43f16]
+[04:32:45] [Server thread/INFO]: [@: Gave 1 [Elytra] to 08e2fb8e85e43f16]
+[04:33:59] [Server thread/INFO]: [@: Gave 1 [Elytra] to 08e2fb8e85e43f16]
+[04:34:21] [Server thread/INFO]: [@: Gave 1 [Elytra] to 08e2fb8e85e43f16]
+[04:37:43] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Polished Blackstone Pressure Plate] to 08e2fb8e85e43f16]
+[04:42:46] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -10.5, 255.0, -9.5]
+[04:42:54] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -10.5, 258.0, -9.5]
+[04:46:36] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[04:56:39] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Dark Oak Fence] to 08e2fb8e85e43f16]
+[04:57:19] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Soul Lantern] to 08e2fb8e85e43f16]
+[04:57:27] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Sea Lantern] to 08e2fb8e85e43f16]
+[04:57:42] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Lantern] to 08e2fb8e85e43f16]
+[05:24:16] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Jungle Sign] to 08e2fb8e85e43f16]
+[05:31:10] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Acacia Sign] to 08e2fb8e85e43f16]
+[05:31:36] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[05:34:30] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -16383.5, 255.0, -16383.5]
+[05:34:50] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -16383.5, 265.0, -16383.5]
+[05:35:04] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[05:35:09] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[05:35:49] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Acacia Sign] to 08e2fb8e85e43f16]
+[05:35:53] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Birch Sign] to 08e2fb8e85e43f16]
+[05:36:02] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Crimson Sign] to 08e2fb8e85e43f16]
+[05:36:09] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Dark Oak Sign] to 08e2fb8e85e43f16]
+[05:36:15] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Jungle Sign] to 08e2fb8e85e43f16]
+[05:36:26] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Oak Sign] to 08e2fb8e85e43f16]
+[05:36:32] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Spruce Sign] to 08e2fb8e85e43f16]
+[05:36:42] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Warped Sign] to 08e2fb8e85e43f16]
+[05:38:06] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Sea Lantern] to 08e2fb8e85e43f16]
+[05:45:27] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Polished Blackstone Pressure Plate] to 08e2fb8e85e43f16]
+[05:45:39] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[05:45:49] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[05:45:52] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[05:46:16] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Polished Blackstone Button] to 08e2fb8e85e43f16]
+[05:46:42] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[05:46:46] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[05:46:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[05:48:25] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Command Block] to 08e2fb8e85e43f16]
+[05:49:33] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Block of Redstone] to 08e2fb8e85e43f16]
+[05:49:39] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[05:49:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[05:50:09] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Stone] to 08e2fb8e85e43f16]
+[05:50:20] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[05:50:26] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[05:51:08] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Bedrock] to 08e2fb8e85e43f16]
+[05:56:25] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[05:56:29] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[05:59:32] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[05:59:41] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[05:59:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[05:59:57] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:00:16] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:00:19] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:07:25] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[06:07:34] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[06:07:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:07:56] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:08:30] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Water Bucket] to 08e2fb8e85e43f16]
+[06:09:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:09:04] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:09:40] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Bucket] to 08e2fb8e85e43f16]
+[06:11:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:11:57] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:12:05] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:12:08] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:12:28] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:12:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:17:28] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:17:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:17:44] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[06:17:56] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[06:18:40] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:18:43] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:18:50] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:18:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:19:51] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:19:54] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:23:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:23:48] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:25:20] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:25:25] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:28:18] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:28:20] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:37:00] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[06:37:04] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[06:40:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:40:39] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:40:50] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[06:40:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:41:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:41:04] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:41:06] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:41:09] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:41:19] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Elytra] to 08e2fb8e85e43f16]
+[06:42:28] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[06:43:52] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:43:55] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:44:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 74.0, -191.5]
+[06:45:28] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 256.0, 8.5]
+[06:45:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:45:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 74.0, -191.5]
+[06:45:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 256.0, 8.5]
+[06:45:55] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:46:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 74.0, -191.5]
+[06:46:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 256.0, 8.5]
+[06:46:05] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:46:09] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 74.0, -191.5]
+[06:46:09] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 256.0, 8.5]
+[06:47:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:47:52] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:47:57] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:48:12] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:48:20] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:48:23] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:48:34] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[06:48:47] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:48:50] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:48:54] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:48:57] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 74.0, -191.5]
+[06:48:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:49:03] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:49:23] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 74.0, -191.5]
+[06:49:24] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:49:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:49:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 74.0, -191.5]
+[06:49:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:49:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:50:07] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:50:08] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:50:11] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:50:14] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:50:34] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:51:42] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:51:46] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:53:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:53:47] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:54:17] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:54:21] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:54:25] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:54:26] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:54:30] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:54:36] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:54:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:54:47] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:54:52] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:54:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:54:56] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:55:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:55:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:55:03] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[06:55:06] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:55:10] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:55:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:55:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:55:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:55:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:55:59] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 254.0, 8.5]
+[06:56:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:56:24] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:56:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:56:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:56:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:56:39] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 78.0, -191.5]
+[06:56:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:57:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:57:19] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[06:57:20] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:57:23] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:58:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:58:40] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:58:43] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[06:58:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:58:47] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:58:50] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[06:58:51] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[06:59:04] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:59:10] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[06:59:42] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:59:51] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[06:59:52] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[06:59:56] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:00:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:00:04] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:00:46] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:01:03] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[07:01:06] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:01:10] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:01:15] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:01:19] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:01:24] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:01:28] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:01:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:01:34] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:01:38] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:01:42] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:01:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:01:51] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:01:55] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:02:23] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[07:03:33] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Grass Block] to 08e2fb8e85e43f16]
+[07:06:07] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[07:06:15] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[07:06:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:06:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:06:50] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:06:54] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:07:13] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:07:16] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:07:17] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:07:20] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:07:21] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:07:24] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:07:34] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:07:38] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:07:38] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:07:41] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 76.0, -191.5]
+[07:11:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:11:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 72.0, -191.5]
+[07:11:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:11:36] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 72.0, -191.5]
+[07:11:36] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:11:41] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 72.0, -191.5]
+[07:11:41] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:11:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 72.0, -191.5]
+[07:11:45] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:11:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 72.0, -191.5]
+[07:11:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:12:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:12:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:14:47] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:14:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:15:02] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:15:07] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:15:10] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:15:23] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:15:37] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:15:42] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:16:05] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:16:15] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 242.0, -7.5]
+[07:16:30] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:16:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:17:05] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:17:12] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:17:14] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:17:16] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:17:28] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:17:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:17:39] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:18:10] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 10.447334394742825,-14.688802417569121,2.0684444521600858
+[07:18:38] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:19:18] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[07:23:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:24:08] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:35:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:36:25] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:36:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:36:28] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:37:38] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 257.0, 8.5]
+[07:38:22] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:38:25] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:38:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:38:28] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:38:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:38:34] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:38:36] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:40:13] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:40:15] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:41:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
+[07:42:08] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:42:33] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 67.0, 0.5]
+[07:42:39] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:42:48] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 67.0, 0.5]
+[07:50:37] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to rain & thunder]
+[07:51:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:51:02] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:51:05] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:51:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 67.0, 0.5]
+[07:52:42] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[07:52:51] [Server thread/INFO]: [08e2fb8e85e43f16: Gamerule doDaylightCycle is now set to: true]
+[07:53:21] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -7.5, 145.0, -7.5]
+[07:53:23] [Server thread/INFO]: 08e2fb8e85e43f16 fell from a high place
+[07:53:32] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -7.5, 245.0, -7.5]
+[07:53:51] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:53:57] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:54:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:54:07] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:54:14] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:54:16] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:54:24] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:54:31] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:54:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:54:43] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:54:44] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:54:47] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:54:59] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:55:03] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:55:08] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:55:11] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:55:19] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:55:24] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:55:30] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:55:33] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:55:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:56:05] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:56:07] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:56:08] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:56:10] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:56:13] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -10.5, 242.0, -2.5]
+[07:56:22] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[07:56:31] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[07:56:38] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[07:56:38] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[08:00:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[08:00:52] [Server thread/INFO]: stop<--[HERE]
+[08:00:56] [Server thread/INFO]: Stopping the server
+[08:00:56] [Server thread/INFO]: Stopping server
+[08:00:56] [Server thread/INFO]: Saving players
+[08:00:56] [Server thread/INFO]: Saving worlds
+[08:00:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[08:00:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[08:00:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[08:00:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:00:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[08:00:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:00:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[08:00:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:00:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:00:58] [Server thread/INFO]: Thread Query Listener stopped
