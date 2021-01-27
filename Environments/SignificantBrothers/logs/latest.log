@@ -1,0 +1,18 @@
+[00:01:09] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[00:01:09] [Server thread/INFO]: xXkwispyXx left the game
+[00:01:14] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:01:14] [Server thread/INFO]: save-allstop<--[HERE]
+[00:01:22] [Server thread/INFO]: Stopping the server
+[00:01:22] [Server thread/INFO]: Stopping server
+[00:01:22] [Server thread/INFO]: Saving players
+[00:01:22] [Server thread/INFO]: Saving worlds
+[00:01:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[00:01:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[00:01:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[00:01:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:01:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[00:01:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:01:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[00:01:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:01:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:01:27] [Server thread/INFO]: Thread Query Listener stopped

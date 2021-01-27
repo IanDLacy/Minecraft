@@ -1,0 +1,3 @@
+#!/bin/sh
+cd Environments/Vanilla/
+exec java -jar ../../Servers/Vanilla/Server.jar --nogui --help

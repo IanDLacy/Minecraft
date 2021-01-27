@@ -1,3 +1,0 @@
-#!/bin/sh
-cd /home/q5x7e3wp/MinecraftServer/Current
-exec java -jar /home/q5x7e3wp/MinecraftServer/Current/server.jar --nogui --help

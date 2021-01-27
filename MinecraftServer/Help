@@ -1,3 +1,0 @@
-#!/bin/sh
-cd /home/q5x7e3wp/SignificantBrothers/MinecraftServer
-exec java -jar /home/q5x7e3wp/SignificantBrothers/MinecraftServer/server.jar --nogui --help
