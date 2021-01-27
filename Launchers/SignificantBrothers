@@ -1,4 +1,5 @@
 #!/bin/sh
+./Scripts/PHPServer
 cd Environments/SignificantBrothers/
 java -Xmx2048M -Xms2048M -jar ../../Servers/Vanilla/Server.jar --nogui --bonusChest --universe ../../Worlds/ --world SignificantBrothers
 ../../Scripts/AutomaticAddCommitPush
