@@ -2,4 +2,4 @@
 ./Scripts/PHPServer
 cd Environments/SignificantBrothers/
 exec java -Xmx2048M -Xms2048M -jar ../../Servers/Vanilla/Server.jar --nogui --bonusChest --universe ../../Worlds/ --world FirstWorld
-exec ../../Scripts/AutomaticAddCommitPush
+exec ../../Scripts/AddCommitPush
