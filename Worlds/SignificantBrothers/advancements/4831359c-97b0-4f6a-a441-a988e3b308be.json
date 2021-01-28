@@ -5,19 +5,79 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2021-01-28 01:19:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2021-01-28 01:19:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2021-01-27 02:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2021-01-27 02:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-01-28 01:13:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2021-01-28 01:19:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-01-28 02:18:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_double_plant": "2021-01-28 01:34:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2021-01-28 01:35:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2021-01-27 02:55:40 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
-      "in_water": "2021-01-27 02:55:40 +0000"
+      "has_double_plant": "2021-01-28 01:36:38 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2021-01-28 02:35:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2021-01-27 02:55:40 +0000"
     },
@@ -29,9 +89,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "minecraft:nether/root": {
     "criteria": {
-      "in_water": "2021-01-27 02:55:40 +0000"
+      "entered_nether": "2021-01-28 02:18:50 +0000"
     },
     "done": true
   },
@@ -47,18 +107,31 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2021-01-27 02:48:04 +0000",
+      "minecraft:river": "2021-01-28 01:31:46 +0000",
+      "minecraft:plains": "2021-01-27 02:42:45 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2021-01-27 02:59:12 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:forest": "2021-01-27 02:48:04 +0000",
-      "minecraft:plains": "2021-01-27 02:42:45 +0000"
+      "minecraft:crimson_forest": "2021-01-28 02:18:50 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2021-01-28 02:35:46 +0000"
+    },
+    "done": true
   },
   "DataVersion": 2586
 }
