@@ -1,151 +1,175 @@
-[13:29:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:29:22] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:29:22] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:29:22] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:29:22] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:29:22] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:29:22] [main/INFO]: Reloading ResourceManager: Default
-[13:29:24] [Worker-Main-4/INFO]: Loaded 7 recipes
-[13:29:25] [Worker-Main-4/INFO]: Loaded 927 advancements
-[13:29:27] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[13:29:27] [Server thread/INFO]: Loading properties
-[13:29:27] [Server thread/INFO]: Default game type: ADVENTURE
-[13:29:27] [Server thread/INFO]: Generating keypair
-[13:29:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:29:28] [Server thread/INFO]: Using epoll channel type
-[13:29:28] [Server thread/INFO]: Preparing level "SignificantBrothers"
-[13:29:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:29:31] [Server thread/INFO]: Preparing spawn area: 0%
-[13:29:31] [Server thread/INFO]: Preparing spawn area: 0%
-[13:29:31] [Server thread/INFO]: Preparing spawn area: 0%
-[13:29:31] [Server thread/INFO]: Preparing spawn area: 0%
-[13:29:31] [Server thread/INFO]: Preparing spawn area: 0%
-[13:29:31] [Server thread/INFO]: Preparing spawn area: 0%
-[13:29:32] [Server thread/INFO]: Preparing spawn area: 49%
-[13:29:32] [Server thread/INFO]: Time elapsed: 3768 ms
-[13:29:32] [Server thread/INFO]: Done (3.917s)! For help, type "help"
-[13:29:32] [Server thread/INFO]: Starting GS4 status listener
-[13:29:32] [Server thread/INFO]: Thread Query Listener started
-[13:29:32] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[13:30:09] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[13:30:10] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:2809] logged in with entity id 206 at (-119.28829148875856, 68.875, -231.86385581469764)
-[13:30:10] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[13:51:21] [Server thread/INFO]: [08e2fb8e85e43f16: Changed the block at -115, 67, -229]
-[13:51:30] [Server thread/INFO]: [08e2fb8e85e43f16: Changed the block at -116, 67, -229]
-[14:04:54] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[14:05:24] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[14:09:30] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[14:11:56] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Water Bucket] to 08e2fb8e85e43f16]
-[14:13:56] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[14:37:59] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[14:40:01] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[14:43:07] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[14:45:29] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[14:48:36] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[14:49:59] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
-[14:51:26] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[14:51:26] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[15:13:45] [User Authenticator #2/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[15:13:45] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:31532] logged in with entity id 10249 at (-113.06190711841825, 73.40760084426981, -194.52613615567768)
-[15:13:45] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[15:16:52] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[15:17:51] [Server thread/INFO]: [08e2fb8e85e43f16: Gamerule doDaylightCycle is now set to: false]
-[15:17:55] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 6000]
-[15:18:03] [Server thread/INFO]: [08e2fb8e85e43f16: The difficulty has been set to Peaceful]
-[15:23:49] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[15:25:07] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[15:25:41] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[15:26:40] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[15:31:07] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[15:31:16] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[15:31:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 96 blocks]
-[15:31:58] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[15:34:10] [Server thread/INFO]: [08e2fb8e85e43f16: Applied effect Water Breathing to 08e2fb8e85e43f16]
-[16:04:19] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[16:06:27] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[16:06:53] [Server thread/INFO]: [08e2fb8e85e43f16: Gamerule doDaylightCycle is now set to: true]
-[16:07:02] [Server thread/INFO]: [08e2fb8e85e43f16: The difficulty has been set to Easy]
-[16:07:17] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
-[16:07:52] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[16:07:52] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[16:40:16] [User Authenticator #3/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[16:40:16] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:32197] logged in with entity id 13258 at (-117.30090346860077, 67.9375, -228.78619705660176)
-[16:40:16] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[16:56:34] [Server thread/INFO]: 08e2fb8e85e43f16 was shot by Skeleton
-[17:10:48] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/17171, l='ServerLevel[The Bois]', x=-23.14, y=70.00, z=-193.00]
-[17:13:33] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[17:14:10] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[17:28:52] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[17:32:27] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[17:32:38] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[17:36:25] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 96 blocks]
-[17:39:10] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
-[17:45:02] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:06] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:23] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:29] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:34] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:38] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:48] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:46:57] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 180 blocks]
-[17:49:14] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
-[17:58:04] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 108 blocks]
-[17:59:06] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[18:00:21] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[18:04:45] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:07:12] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:07:41] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:08:15] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:08:26] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:08:34] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:09:44] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:09:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:10:13] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:11:29] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:11:37] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
-[18:13:11] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:13:20] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:13:32] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:13:38] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:13:47] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:13:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:14:13] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:14:20] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:14:55] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/25057, l='ServerLevel[The Bois]', x=-24.93, y=70.00, z=-190.70]
-[18:16:59] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully cloned 243 blocks]
-[18:19:37] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 74 blocks]
-[18:21:15] [Server thread/INFO]: [08e2fb8e85e43f16: Changed the block at -101, 88, -220]
-[18:21:27] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Bucket] to 08e2fb8e85e43f16]
-[18:22:20] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
-[18:22:53] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[18:22:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -107.5, 68.0, -219.5]
-[18:27:09] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 196 blocks]
-[18:28:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[18:28:49] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[18:29:30] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[18:29:50] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
-[18:31:21] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[18:32:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
-[18:32:09] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[18:32:34] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[18:34:21] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[18:34:36] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[18:35:25] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[18:36:58] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
-[18:37:20] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[18:37:20] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[18:37:49] [Server thread/INFO]: Stopping the server
-[18:37:49] [Server thread/INFO]: Stopping server
-[18:37:49] [Server thread/INFO]: Saving players
-[18:37:49] [Server thread/INFO]: Saving worlds
-[18:37:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
-[18:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[18:37:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
-[18:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:37:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
-[18:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[18:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:37:49] [Server thread/INFO]: Thread Query Listener stopped
+[19:25:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:25:02] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:25:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:25:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:25:02] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19:25:02] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19:25:02] [main/INFO]: Reloading ResourceManager: Default
+[19:25:04] [Worker-Main-4/INFO]: Loaded 7 recipes
+[19:25:05] [Worker-Main-4/INFO]: Loaded 927 advancements
+[19:25:07] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:25:07] [Server thread/INFO]: Loading properties
+[19:25:07] [Server thread/INFO]: Default game type: ADVENTURE
+[19:25:07] [Server thread/INFO]: Generating keypair
+[19:25:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:25:08] [Server thread/INFO]: Using epoll channel type
+[19:25:08] [Server thread/INFO]: Preparing level "SignificantBrothers"
+[19:25:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:25:11] [Server thread/INFO]: Preparing spawn area: 0%
+[19:25:11] [Server thread/INFO]: Preparing spawn area: 0%
+[19:25:11] [Server thread/INFO]: Preparing spawn area: 0%
+[19:25:11] [Server thread/INFO]: Preparing spawn area: 0%
+[19:25:11] [Server thread/INFO]: Preparing spawn area: 0%
+[19:25:11] [Server thread/INFO]: Preparing spawn area: 0%
+[19:25:11] [Server thread/INFO]: Preparing spawn area: 22%
+[19:25:12] [Server thread/INFO]: Preparing spawn area: 61%
+[19:25:12] [Server thread/INFO]: Time elapsed: 3857 ms
+[19:25:12] [Server thread/INFO]: Done (4.091s)! For help, type "help"
+[19:25:12] [Server thread/INFO]: Starting GS4 status listener
+[19:25:12] [Server thread/INFO]: Thread Query Listener started
+[19:25:12] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[19:25:30] [User Authenticator #1/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
+[19:25:31] [Server thread/INFO]: Djdominique[/67.194.228.220:59675] logged in with entity id 212 at (81.33943829690581, 68.0625, -200.00406863230668)
+[19:25:31] [Server thread/INFO]: Djdominique joined the game
+[19:25:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:25:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7082ms or 141 ticks behind
+[19:27:29] [User Authenticator #2/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[19:27:29] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:64435] logged in with entity id 858 at (254.845676446894, 70.9375, -638.453350571778)
+[19:27:29] [Server thread/INFO]: xXkwispyXx joined the game
+[19:27:33] [Server thread/INFO]: <xXkwispyXx> boi
+[19:27:38] [Server thread/INFO]: <Djdominique> u
+[19:28:21] [User Authenticator #3/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[19:28:21] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:23582] logged in with entity id 1361 at (-118.49503129747441, 68.875, -230.90569426355407)
+[19:28:21] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[19:28:27] [Server thread/INFO]: <xXkwispyXx> IAN GO TO BED
+[19:29:02] [Server thread/INFO]: <08e2fb8e85e43f16> Who's addicted now, b***h
+[19:29:10] [Server thread/INFO]: <xXkwispyXx> THIS MEETING FUCKING SUCKS
+[19:29:26] [Server thread/INFO]: <xXkwispyXx> It's literally about SEOs and Amazon title formatting
+[19:29:31] [Server thread/INFO]: <xXkwispyXx> I don't write listings anymore
+[19:30:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2259ms or 45 ticks behind
+[19:31:43] [Server thread/INFO]: <Djdominique> bedtime
+[19:31:44] [Server thread/WARN]: Fetching packet for removed entity bcv['Sugar Cane'/3199, l='ServerLevel[The Bois]', x=-96.13, y=62.53, z=-212.88]
+[19:32:08] [Server thread/INFO]: <08e2fb8e85e43f16> bedtime!
+[19:32:13] [Server thread/INFO]: <xXkwispyXx> I was sleeping
+[19:32:14] [Server thread/INFO]: <08e2fb8e85e43f16> thx
+[19:32:28] [Server thread/INFO]: <xXkwispyXx> I'm going to be by my bed and just passively farm things
+[19:32:46] [Server thread/INFO]: <08e2fb8e85e43f16> sorry about ur meeting
+[19:32:50] [Server thread/INFO]: <xXkwispyXx> I'll be gone once this bs exports
+[19:32:56] [Server thread/INFO]: <xXkwispyXx> Oh no, I'm actually happy about it
+[19:33:51] [Server thread/WARN]: Fetching packet for removed entity bcv['Furnace'/4758, l='ServerLevel[The Bois]', x=-14.17, y=74.00, z=-180.90]
+[19:36:51] [Server thread/INFO]: <08e2fb8e85e43f16> oh ok
+[19:37:00] [Server thread/INFO]: <08e2fb8e85e43f16> Just did my first cane harvest.
+[19:37:13] [Server thread/INFO]: <08e2fb8e85e43f16> 1792 cane
+[19:38:23] [Server thread/INFO]: <xXkwispyXx> just built two blast furnaces and two smokers
+[19:38:40] [Server thread/INFO]: <Djdominique> got any dark oak?
+[19:38:55] [Server thread/INFO]: <xXkwispyXx> follow the road. just plant new trees as you cut
+[19:39:12] [Server thread/INFO]: <xXkwispyXx> bring some dark oak back here :3
+[19:39:28] [Server thread/INFO]: <xXkwispyXx> OOOH SMOKERS WORK FAST
+[19:42:49] [Server thread/INFO]: <08e2fb8e85e43f16> hell yeah
+[19:42:58] [Server thread/INFO]: <08e2fb8e85e43f16> i smoked a lot of meat last night
+[19:43:05] [Server thread/INFO]: <08e2fb8e85e43f16> first time ever using those
+[19:43:09] [Server thread/INFO]: <08e2fb8e85e43f16> i like them
+[19:43:12] [Server thread/INFO]: <08e2fb8e85e43f16> bed time
+[19:43:53] [Server thread/INFO]: <08e2fb8e85e43f16> bed time
+[19:43:57] [Server thread/INFO]: <08e2fb8e85e43f16> bed
+[19:44:02] [Server thread/INFO]: <08e2fb8e85e43f16> tiem
+[19:44:09] [Server thread/INFO]: <08e2fb8e85e43f16> b
+[19:44:10] [Server thread/INFO]: <08e2fb8e85e43f16> e
+[19:44:10] [Server thread/INFO]: <08e2fb8e85e43f16> d
+[19:44:11] [Server thread/INFO]: <08e2fb8e85e43f16> t
+[19:44:13] [Server thread/INFO]: <08e2fb8e85e43f16> i
+[19:44:14] [Server thread/INFO]: <08e2fb8e85e43f16> m
+[19:44:15] [Server thread/INFO]: <08e2fb8e85e43f16> e
+[19:44:17] [Server thread/INFO]: <xXkwispyXx> I'm in
+[19:54:28] [Server thread/INFO]: <08e2fb8e85e43f16> prep for bed time
+[19:56:21] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
+[19:56:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[19:57:55] [Server thread/INFO]: <xXkwispyXx> the meeting is just talking stocks and crypto right now
+[19:58:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[19:58:06] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
+[19:58:27] [Server thread/INFO]: <xXkwispyXx> BLAST FURNACE FAST
+[19:58:53] [Server thread/INFO]: 08e2fb8e85e43f16 was blown up by Creeper
+[19:59:01] [Server thread/INFO]: <xXkwispyXx> IAN
+[19:59:05] [Server thread/INFO]: <xXkwispyXx> MY ROAD
+[19:59:21] [Server thread/INFO]: <08e2fb8e85e43f16> that was Danny lol
+[19:59:32] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[19:59:36] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
+[20:02:09] [Server thread/INFO]: Djdominique has made the advancement [A Seedy Place]
+[20:02:58] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=168, y=65, z=-203} fx{x=168, y=63, z=-204}
+[20:08:27] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[20:08:27] [Server thread/INFO]: xXkwispyXx left the game
+[20:42:08] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[20:42:35] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[20:44:10] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[20:44:13] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
+[20:50:00] [User Authenticator #4/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[20:50:00] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:65252] logged in with entity id 22319 at (51.999940449208765, 66.9375, -324.3952257724638)
+[20:50:00] [Server thread/INFO]: xXkwispyXx joined the game
+[20:57:04] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
+[20:57:10] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[20:57:30] [Server thread/INFO]: [@: Teleported 2 entities to -10.5, 80.0, -181.5]
+[20:57:46] [Server thread/INFO]: xXkwispyXx lost connection: Timed out
+[20:57:46] [Server thread/INFO]: xXkwispyXx left the game
+[20:59:40] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[20:59:46] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
+[21:00:00] [User Authenticator #5/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[21:00:00] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:65395] logged in with entity id 25491 at (-10.5, 80.0, -181.5)
+[21:00:00] [Server thread/INFO]: xXkwispyXx joined the game
+[21:00:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-97, y=68, z=-273} fx{x=-96, y=68, z=-275}
+[21:00:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-97, y=68, z=-273} fx{x=-96, y=68, z=-275}
+[21:00:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-97, y=68, z=-273} fx{x=-96, y=68, z=-275}
+[21:00:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-97, y=68, z=-273} fx{x=-96, y=68, z=-275}
+[21:05:24] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[21:05:24] [Server thread/INFO]: xXkwispyXx left the game
+[21:09:26] [User Authenticator #6/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[21:09:26] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:65448] logged in with entity id 27702 at (139.51414731212603, 46.0, -449.06029923363894)
+[21:09:26] [Server thread/INFO]: xXkwispyXx joined the game
+[21:09:31] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[21:09:31] [Server thread/INFO]: xXkwispyXx left the game
+[21:10:05] [User Authenticator #7/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[21:10:05] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:65455] logged in with entity id 27868 at (139.51414731212603, 46.0, -449.06029923363894)
+[21:10:05] [Server thread/INFO]: xXkwispyXx joined the game
+[21:10:52] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
+[21:10:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[21:11:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[21:11:02] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[21:14:01] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Apple] to 08e2fb8e85e43f16]
+[21:14:18] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Apple] to 08e2fb8e85e43f16]
+[21:15:04] [Server thread/INFO]: 08e2fb8e85e43f16 has made the advancement [Best Friends Forever]
+[21:15:35] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Apple] to 08e2fb8e85e43f16]
+[21:17:33] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Apple] to 08e2fb8e85e43f16]
+[21:21:32] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[21:21:32] [Server thread/INFO]: xXkwispyXx left the game
+[21:21:48] [User Authenticator #8/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[21:21:48] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:65521] logged in with entity id 31890 at (268.0559498627756, 84.0, -747.5969906048927)
+[21:21:48] [Server thread/INFO]: xXkwispyXx joined the game
+[21:26:14] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[21:26:27] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 259.0, 8.5]
+[21:27:20] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Elytra] to 08e2fb8e85e43f16]
+[21:28:56] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[21:28:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
+[21:29:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
+[21:29:06] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
+[21:29:35] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
+[21:29:35] [Server thread/INFO]: xXkwispyXx left the game
+[21:31:41] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[21:31:49] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[21:31:49] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[21:31:57] [Server thread/INFO]: Djdominique lost connection: Disconnected
+[21:31:57] [Server thread/INFO]: Djdominique left the game
+[21:32:15] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:32:15] [Server thread/INFO]: Saved the game
+[21:32:21] [Server thread/INFO]: Stopping the server
+[21:32:21] [Server thread/INFO]: Stopping server
+[21:32:21] [Server thread/INFO]: Saving players
+[21:32:21] [Server thread/INFO]: Saving worlds
+[21:32:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[21:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[21:32:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[21:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:32:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[21:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[21:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:32:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:32:22] [Server thread/INFO]: Thread Query Listener stopped
