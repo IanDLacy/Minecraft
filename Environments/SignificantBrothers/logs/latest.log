@@ -1,237 +1,180 @@
-[01:52:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:52:39] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:52:39] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:52:39] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:52:39] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:52:39] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:52:39] [main/INFO]: Reloading ResourceManager: Default
-[01:52:41] [Worker-Main-5/INFO]: Loaded 7 recipes
-[01:52:41] [Worker-Main-5/INFO]: Loaded 927 advancements
-[01:52:43] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[01:52:43] [Server thread/INFO]: Loading properties
-[01:52:43] [Server thread/INFO]: Default game type: ADVENTURE
-[01:52:43] [Server thread/INFO]: Generating keypair
-[01:52:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:52:44] [Server thread/INFO]: Using epoll channel type
-[01:52:44] [Server thread/INFO]: Preparing level "SignificantBrothers"
-[01:52:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:52:47] [Server thread/INFO]: Preparing spawn area: 0%
-[01:52:47] [Server thread/INFO]: Preparing spawn area: 0%
-[01:52:47] [Server thread/INFO]: Preparing spawn area: 0%
-[01:52:47] [Server thread/INFO]: Preparing spawn area: 0%
-[01:52:47] [Server thread/INFO]: Preparing spawn area: 0%
-[01:52:47] [Server thread/INFO]: Preparing spawn area: 0%
-[01:52:48] [Server thread/INFO]: Preparing spawn area: 0%
-[01:52:48] [Server thread/INFO]: Preparing spawn area: 86%
-[01:52:48] [Server thread/INFO]: Time elapsed: 3871 ms
-[01:52:48] [Server thread/INFO]: Done (4.188s)! For help, type "help"
-[01:52:48] [Server thread/INFO]: Starting GS4 status listener
-[01:52:48] [Server thread/INFO]: Thread Query Listener started
-[01:52:48] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:53:04] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[01:53:05] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:4604] logged in with entity id 243 at (-7.4449481783756415, 123.0, -184.01249998807907)
-[01:53:05] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[01:53:06] [User Authenticator #2/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
-[01:53:06] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:56384] logged in with entity id 256 at (-12.377997051606966, 74.0625, -183.37564345623892)
-[01:53:06] [Server thread/INFO]: xXkwispyXx joined the game
-[01:53:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
-[01:53:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2269ms or 45 ticks behind
-[01:53:30] [User Authenticator #3/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
-[01:53:30] [Server thread/INFO]: Djdominique[/67.194.228.220:54358] logged in with entity id 574 at (-80.33043367058315, 65.0, -234.10629146438228)
-[01:53:30] [Server thread/INFO]: Djdominique joined the game
-[01:53:57] [User Authenticator #4/INFO]: UUID of player admiralzachbar is 5dd9a721-e477-440a-9e42-f059440eca56
-[01:53:57] [Server thread/INFO]: admiralzachbar[/68.32.87.77:52272] logged in with entity id 717 at (-14.300000011920929, 79.0, -178.5270122308909)
-[01:53:57] [Server thread/INFO]: admiralzachbar joined the game
-[01:54:25] [Server thread/INFO]: Set the time to 1000
-[01:54:34] [User Authenticator #5/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
-[01:54:34] [Server thread/INFO]: DwyertheRed[/98.250.173.2:50556] logged in with entity id 858 at (-11.018553041100741, 74.0625, -183.65994508587727)
-[01:54:34] [Server thread/INFO]: DwyertheRed joined the game
-[01:55:02] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[01:55:02] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[01:55:18] [User Authenticator #6/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[01:55:19] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:4619] logged in with entity id 1023 at (-7.4449481783756415, 123.0, -184.01249998807907)
-[01:55:19] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[01:55:59] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to admiralzachbar]
-[01:57:55] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! -5.232644059707241,-0.0625,-8.688553597184068
-[01:57:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
-[01:59:46] [Server thread/INFO]: [08e2fb8e85e43f16: Set admiralzachbar's game mode to Survival Mode]
-[02:02:52] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[02:02:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
-[02:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3030ms or 60 ticks behind
-[02:03:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3240ms or 64 ticks behind
-[02:04:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
-[02:04:42] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[02:05:20] [Server thread/INFO]: [08e2fb8e85e43f16: Changed the block at -10, 73, -189]
-[02:07:05] [Server thread/INFO]: admiralzachbar was slain by Zombie
-[02:10:07] [Server thread/INFO]: admiralzachbar has made the advancement [Sweet Dreams]
-[02:12:16] [Server thread/INFO]: Djdominique was shot by Skeleton
-[02:13:06] [Server thread/INFO]: 08e2fb8e85e43f16 has made the advancement [Ol' Betsy]
-[02:15:32] [Server thread/INFO]: 08e2fb8e85e43f16 has made the advancement [Ice Bucket Challenge]
-[02:23:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[02:23:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[02:24:43] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
-[02:24:51] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Apple] to 08e2fb8e85e43f16]
-[02:25:01] [Server thread/INFO]: admiralzachbar fell from a high place
-[02:25:07] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Apple] to 08e2fb8e85e43f16]
-[02:25:15] [Server thread/INFO]: admiralzachbar fell from a high place
-[02:26:36] [Server thread/INFO]: Djdominique fell from a high place
-[02:27:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 9.953374338941217,-1.0,-3.251147314205525
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 10.455446715544724,-1.0,-3.4198869334210826
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 10.956753051321925,-1.0,-3.5909146755722645
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 11.45764949392617,-1.0,-3.7631667466860677
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 11.958326610865981,-1.0,-3.9360739318173046
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 12.458886371015637,-1.0,-4.109331655397682
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 12.959383335886685,-1.0,-4.2827769451131985
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 13.45984670025615,-1.0,-4.45632259772799
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 13.960292085667163,-1.0,-4.629921952529173
-[02:28:14] [Server thread/WARN]: Horse (vehicle of 08e2fb8e85e43f16) moved too quickly! 14.461142731021312,-1.0,-4.802344454731838
-[02:28:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3299ms or 65 ticks behind
-[02:28:32] [Server thread/INFO]: admiralzachbar tried to swim in lava
-[02:28:43] [Server thread/INFO]: admiralzachbar fell from a high place
-[02:29:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:29:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[02:29:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[02:30:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[02:30:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:30:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[02:31:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[02:31:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:31:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2607ms or 52 ticks behind
-[02:32:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2876ms or 57 ticks behind
-[02:32:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2282ms or 45 ticks behind
-[02:32:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2218ms or 44 ticks behind
-[02:33:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2269ms or 45 ticks behind
-[02:33:10] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[02:33:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:33:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[02:33:50] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! -2.481681549527252,0.0,10.596830340660404
-[02:33:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3716ms or 74 ticks behind
-[02:34:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[02:34:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2881ms or 57 ticks behind
-[02:34:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2102ms or 42 ticks behind
-[02:35:02] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 665.5, 70.0, -644.5]
-[02:35:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:35:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[02:36:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[02:36:27] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[02:40:29] [Server thread/INFO]: 08e2fb8e85e43f16 was blown up by Creeper
-[02:43:23] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[02:44:22] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[02:46:22] [Server thread/INFO]: admiralzachbar has made the advancement [Stone Age]
-[02:48:39] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[02:48:39] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[02:49:10] [Server thread/INFO]: admiralzachbar has made the advancement [Getting an Upgrade]
-[02:50:30] [Server thread/INFO]: Djdominique fell from a high place
-[02:56:25] [Server thread/INFO]: Djdominique fell from a high place
-[02:57:17] [Server thread/INFO]: DwyertheRed was slain by Zombie
-[02:58:08] [Server thread/INFO]: Djdominique lost connection: Disconnected
-[02:58:08] [Server thread/INFO]: Djdominique left the game
-[02:58:18] [Server thread/INFO]: <xXkwispyXx> BED TIME
-[02:58:20] [Server thread/INFO]: <xXkwispyXx> BED TIME
-[02:58:22] [Server thread/INFO]: <xXkwispyXx> BED TIME
-[03:01:33] [Server thread/INFO]: DwyertheRed was shot by Skeleton
-[03:03:04] [Server thread/INFO]: admiralzachbar lost connection: Disconnected
-[03:03:04] [Server thread/INFO]: admiralzachbar left the game
-[03:21:56] [Server thread/INFO]: DwyertheRed was shot by Skeleton
-[03:23:44] [Server thread/INFO]: DwyertheRed lost connection: Disconnected
-[03:23:44] [Server thread/INFO]: DwyertheRed left the game
-[03:23:44] [Server thread/WARN]: handleDisconnection() called twice
-[03:25:35] [User Authenticator #7/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[03:25:35] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:30610] logged in with entity id 36531 at (-8.198613384565165, 74.0625, -180.66684290900366)
-[03:25:35] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[03:52:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
-[03:53:04] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[03:58:54] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[03:59:00] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
-[04:12:18] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
-[04:12:22] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[04:18:35] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[04:18:40] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
-[04:19:59] [Server thread/INFO]: [@: Replaced a slot on 08e2fb8e85e43f16 with [Elytra]]
-[04:19:59] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 256.0, 8.5]
-[04:22:12] [Server thread/INFO]: 08e2fb8e85e43f16 was slain by Zombie
-[04:22:25] [Server thread/INFO]: [@: Replaced a slot on 08e2fb8e85e43f16 with [Elytra]]
-[04:22:25] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 8.5, 256.0, 8.5]
-[04:23:57] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[04:26:52] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
-[04:27:05] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Elytra] to 08e2fb8e85e43f16]
-[04:27:28] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 64.0, 0.5]
-[04:27:37] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[04:28:03] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
-[04:29:05] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! -18.153702194453103,-1.7547806667903103,4.458826135891684
-[04:29:27] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -490.08484066621037, 255.0, -476.20326911138244]
-[04:30:35] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to -456.65249011993876, 255.0, -122.69999998807907]
-[04:55:19] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[04:55:44] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[05:15:19] [Server thread/INFO]: [08e2fb8e85e43f16: Changed the block at 761, 75, -301]
-[05:18:15] [Server thread/INFO]: 08e2fb8e85e43f16 was shot by Skeleton
-[05:18:41] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[05:19:04] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 7.377504138611869,0.0,-7.106238029148699
-[05:23:11] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
-[05:23:21] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Elytra] to 08e2fb8e85e43f16]
-[05:23:46] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[05:24:05] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 9.956973136814945,-9.258620499987416,-11.4544172139519
-[05:30:10] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[05:34:04] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! -10.343442077570216,0.0,0.009729000571041979
-[05:39:06] [Server thread/WARN]: 08e2fb8e85e43f16 moved too quickly! 5.508457451662025,-0.15000000596046448,-8.4649401663778
-[05:39:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3034ms or 60 ticks behind
-[05:39:25] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
-[05:39:37] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[05:42:06] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
-[05:42:14] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[05:43:07] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[05:43:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
-[05:46:07] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
-[05:46:12] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[05:46:52] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[05:46:57] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
-[05:47:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 5.5, 178.0, 13.5]
-[05:48:04] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[05:48:58] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[05:49:01] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to -103.5, 66.0, -231.5]
-[05:49:03] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 2.5, 178.0, 10.5]
-[05:49:14] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 73.0, -191.5]
-[06:04:26] [Server thread/INFO]: 08e2fb8e85e43f16 was shot by Skeleton
-[06:06:12] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 6 [Leather] to 08e2fb8e85e43f16]
-[06:06:19] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 6 [Stick] to 08e2fb8e85e43f16]
-[06:07:58] [Server thread/INFO]: [08e2fb8e85e43f16: Summoned new Ghast]
-[06:08:11] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[06:08:30] [Server thread/INFO]: 08e2fb8e85e43f16 has completed the challenge [Uneasy Alliance]
-[06:09:17] [Server thread/INFO]: [08e2fb8e85e43f16: Summoned new Vex]
-[06:10:51] [Server thread/INFO]: [08e2fb8e85e43f16: Killed Vex]
-[06:11:06] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[06:11:46] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 8 [Stick] to 08e2fb8e85e43f16]
-[06:30:05] [Server thread/INFO]: 08e2fb8e85e43f16 was slain by Zombie
-[06:31:13] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[06:33:33] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Dirt] to 08e2fb8e85e43f16]
-[06:33:53] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 2 [White Carpet] to 08e2fb8e85e43f16]
-[06:34:04] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [White Bed] to 08e2fb8e85e43f16]
-[06:34:07] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[06:43:05] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[06:43:05] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[07:36:41] [User Authenticator #8/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[07:36:41] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:33788] logged in with entity id 92597 at (-13.5, 86.0, -184.5)
-[07:36:41] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[07:36:58] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[07:37:22] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 96.5, 255.0, -767.5]
-[07:39:22] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[07:39:22] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[08:20:48] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
-[08:20:48] [Server thread/INFO]: xXkwispyXx left the game
-[08:21:11] [Server thread/INFO]: Saving the game (this may take a moment!)
-[08:21:12] [Server thread/INFO]: Saved the game
-[08:21:26] [Server thread/INFO]: Stopping the server
-[08:21:26] [Server thread/INFO]: Stopping server
-[08:21:26] [Server thread/INFO]: Saving players
-[08:21:26] [Server thread/INFO]: Saving worlds
-[08:21:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
-[08:21:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[08:21:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
-[08:21:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:21:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
-[08:21:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:21:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
-[08:21:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:21:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:21:26] [Server thread/INFO]: Thread Query Listener stopped
+[13:47:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:47:32] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:47:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:47:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:47:32] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:47:32] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:47:32] [main/INFO]: Reloading ResourceManager: Default
+[13:47:33] [Worker-Main-4/INFO]: Loaded 7 recipes
+[13:47:34] [Worker-Main-4/INFO]: Loaded 927 advancements
+[13:47:37] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[13:47:37] [Server thread/INFO]: Loading properties
+[13:47:37] [Server thread/INFO]: Default game type: ADVENTURE
+[13:47:37] [Server thread/INFO]: Generating keypair
+[13:47:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:47:37] [Server thread/INFO]: Using epoll channel type
+[13:47:37] [Server thread/INFO]: Preparing level "SignificantBrothers"
+[13:47:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:47:40] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:40] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:40] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:40] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:40] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:40] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:41] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:41] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:42] [Server thread/INFO]: Preparing spawn area: 83%
+[13:47:42] [Server thread/INFO]: Time elapsed: 4306 ms
+[13:47:42] [Server thread/INFO]: Done (4.525s)! For help, type "help"
+[13:47:42] [Server thread/INFO]: Starting GS4 status listener
+[13:47:42] [Server thread/INFO]: Thread Query Listener started
+[13:47:42] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[13:47:52] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[13:47:53] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:28142] logged in with entity id 267 at (-34.231872140917616, 68.0, -20.086768756593475)
+[13:47:53] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[13:47:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[13:48:44] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[13:49:10] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[13:49:25] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[13:51:11] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[13:51:48] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[13:52:43] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15882 blocks]
+[13:52:52] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[13:54:16] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 256 blocks]
+[13:54:33] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[13:56:53] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15594 blocks]
+[13:57:34] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15593 blocks]
+[13:57:52] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[13:59:34] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4352 blocks]
+[13:59:59] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4352 blocks]
+[14:00:12] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:01:49] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:01:56] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 8192 blocks]
+[14:02:34] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 8192 blocks]
+[14:02:43] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[14:02:50] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:03:10] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 8192 blocks]
+[14:03:42] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:05:06] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[14:05:23] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 12288 blocks]
+[14:06:35] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[14:06:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 12288 blocks]
+[14:07:56] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[14:08:10] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 12288 blocks]
+[14:08:32] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:09:28] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15600 blocks]
+[14:10:03] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15618 blocks]
+[14:10:28] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15612 blocks]
+[14:11:08] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15619 blocks]
+[14:11:24] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15589 blocks]
+[14:11:46] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15672 blocks]
+[14:12:11] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 17408 blocks]
+[14:12:31] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14636 blocks]
+[14:12:44] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15588 blocks]
+[14:13:12] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16580 blocks]
+[14:13:37] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15652 blocks]
+[14:13:50] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14652 blocks]
+[14:15:07] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16384 blocks]
+[14:15:28] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 28672 blocks]
+[14:16:15] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:16:22] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[14:19:07] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 12288 blocks]
+[14:19:44] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 12288 blocks]
+[14:19:58] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 20480 blocks]
+[14:20:25] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 26112 blocks]
+[14:20:35] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14080 blocks]
+[14:20:46] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14080 blocks]
+[14:20:58] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 2816 blocks]
+[14:21:11] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14080 blocks]
+[14:21:24] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14080 blocks]
+[14:21:27] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:21:40] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14080 blocks]
+[14:21:55] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 19712 blocks]
+[14:22:15] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 22528 blocks]
+[14:23:16] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 11264 blocks]
+[14:23:26] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14080 blocks]
+[14:26:34] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[14:26:40] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:28:09] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 2560 blocks]
+[14:28:21] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 2560 blocks]
+[14:28:34] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 26624 blocks]
+[14:30:30] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 1984 blocks]
+[14:31:04] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 13200 blocks]
+[14:31:16] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Spectator Mode]
+[14:31:39] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 16560 blocks]
+[14:31:45] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:32:00] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[14:33:13] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 12288 blocks]
+[14:33:22] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15872 blocks]
+[14:33:39] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 29696 blocks]
+[14:34:01] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 5632 blocks]
+[14:35:17] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:35:27] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:35:41] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:35:48] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:35:56] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:36:03] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:36:19] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3072 blocks]
+[14:36:24] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[14:36:56] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:37:23] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 14080 blocks]
+[14:37:48] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 9728 blocks]
+[14:37:58] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 7680 blocks]
+[14:38:07] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 256 blocks]
+[14:39:16] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 7680 blocks]
+[14:39:24] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:39:48] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 30720 blocks]
+[14:39:56] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:40:04] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 15360 blocks]
+[14:40:14] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 10752 blocks]
+[14:41:32] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:42:01] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:42:05] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:42:22] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:42:37] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:43:23] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:44:12] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:44:50] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:45:22] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 256 blocks]
+[14:45:32] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:45:51] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3840 blocks]
+[14:46:12] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 256 blocks]
+[14:46:23] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3840 blocks]
+[14:46:41] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4352 blocks]
+[14:46:47] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[14:46:51] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:47:03] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3840 blocks]
+[14:47:16] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:47:28] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4352 blocks]
+[14:47:39] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 3840 blocks]
+[14:48:14] [Server thread/INFO]: [08e2fb8e85e43f16: Successfully filled 4096 blocks]
+[14:51:38] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[14:51:46] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 8.5, 255.0, 8.5]
+[14:53:22] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
+[14:53:30] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:54:18] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
+[14:56:00] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 64 [Item Frame] to 08e2fb8e85e43f16]
+[14:58:58] [Server thread/INFO]: [08e2fb8e85e43f16: Set the weather to clear]
+[14:59:01] [Server thread/INFO]: [08e2fb8e85e43f16: Set the time to 1000]
+[15:00:50] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Chest] to 08e2fb8e85e43f16]
+[15:02:28] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 255.0, 0.5]
+[15:02:29] [Server thread/INFO]: 08e2fb8e85e43f16 fell from a high place
+[15:02:38] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 250.0, 0.5]
+[15:03:44] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[15:03:44] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[15:03:52] [Server thread/INFO]: Saving the game (this may take a moment!)
+[15:03:52] [Server thread/INFO]: Saved the game
+[15:03:58] [Server thread/INFO]: Stopping the server
+[15:03:58] [Server thread/INFO]: Stopping server
+[15:03:58] [Server thread/INFO]: Saving players
+[15:03:58] [Server thread/INFO]: Saving worlds
+[15:03:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[15:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[15:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[15:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:03:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[15:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (SignificantBrothers): All chunks are saved
+[15:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:03:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:03:59] [Server thread/INFO]: Thread Query Listener stopped
