@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_red_flower": "2021-01-31 05:54:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2021-01-29 19:36:41 +0000"
@@ -104,6 +110,12 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2021-01-26 01:17:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2021-01-31 05:42:16 +0000"
     },
     "done": true
   },
@@ -215,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2021-01-31 05:54:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crimson_fence": {
     "criteria": {
       "has_planks": "2021-01-26 04:09:12 +0000"
@@ -227,6 +245,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2021-01-31 06:05:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2021-01-24 05:12:58 +0000"
@@ -236,6 +260,12 @@
   "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
       "has_log": "2021-01-26 03:36:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2021-01-31 03:57:50 +0000"
     },
     "done": true
   },
@@ -377,6 +407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2021-01-31 05:08:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2021-01-25 02:09:50 +0000"
@@ -498,8 +534,11 @@
       "minecraft:vindicator": "2021-01-28 00:54:17 +0000",
       "minecraft:spider": "2021-01-24 04:53:30 +0000",
       "minecraft:creeper": "2021-01-24 05:47:27 +0000",
+      "minecraft:evoker": "2021-01-31 06:05:55 +0000",
       "minecraft:phantom": "2021-01-30 02:04:53 +0000",
+      "minecraft:cave_spider": "2021-01-31 04:06:21 +0000",
       "minecraft:enderman": "2021-01-27 03:31:27 +0000",
+      "minecraft:vex": "2021-01-31 06:06:11 +0000",
       "minecraft:zombie": "2021-01-24 04:37:10 +0000",
       "minecraft:zombie_villager": "2021-01-28 00:57:46 +0000"
     },
@@ -562,6 +601,12 @@
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2021-01-26 04:12:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2021-01-31 05:42:16 +0000"
     },
     "done": true
   },
@@ -1075,6 +1120,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2021-01-31 05:56:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2021-01-24 04:39:16 +0000"
@@ -1096,6 +1147,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis": "2021-01-25 02:13:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2021-01-31 05:08:02 +0000"
     },
     "done": true
   },
@@ -1159,6 +1216,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2021-01-31 05:54:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2021-01-24 04:39:17 +0000"
@@ -1204,6 +1267,12 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2021-01-24 05:16:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2021-01-31 05:08:02 +0000"
     },
     "done": true
   },
@@ -1264,6 +1333,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2021-01-24 04:56:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2021-01-31 05:08:02 +0000"
     },
     "done": true
   },
@@ -1377,6 +1452,7 @@
       "apple": "2021-01-26 01:02:18 +0000",
       "bread": "2021-01-26 01:02:06 +0000",
       "rotten_flesh": "2021-01-24 04:39:02 +0000",
+      "melon_slice": "2021-01-31 05:50:57 +0000",
       "cooked_chicken": "2021-01-27 02:08:37 +0000"
     },
     "done": false
@@ -1735,6 +1811,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2021-01-31 03:57:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2021-01-25 02:09:50 +0000"
@@ -1846,6 +1928,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2021-01-24 05:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2021-01-31 04:19:06 +0000"
     },
     "done": true
   },
@@ -2173,6 +2261,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_red_flower": "2021-01-31 05:53:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2021-01-31 03:57:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2021-01-26 01:07:12 +0000"
@@ -2224,6 +2324,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2021-01-24 05:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2021-01-31 07:11:53 +0000"
     },
     "done": true
   },
@@ -2281,6 +2387,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2021-01-31 05:08:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-01-26 01:47:03 +0000"
@@ -2326,6 +2438,12 @@
   "minecraft:recipes/decorations/pink_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-01-26 01:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2021-01-31 05:42:16 +0000"
     },
     "done": true
   },
