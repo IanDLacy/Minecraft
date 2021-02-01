@@ -1,6 +1,24 @@
 #!/bin/sh
-./Scripts/PHPServer
-cd Environments/SignificantBrothers/
-cp ServerProperties server.properties
-java -Xmx2048M -Xms2048M -jar ../../Servers/Vanilla/Server.jar --nogui --bonusChest --universe ../../Worlds/ --world SignificantBrothers
-../../Scripts/AddCommitPush
+
+# Create Temporary Environment
+ln -sT ~/Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
+ln -sT ~/Minecraft/Servers/Vanilla/Server.jar ~/Minecraft/Environment/Server
+ln -sT ~/Minecraft/Worlds/SignificantBrothers/ ~/Minecraft/Environment/World
+cd ~/Minecraft/Environment/
+
+# Update Server Properties
+cp ./ServerProperties ./server.properties
+
+# Start PHP Server
+~/Minecraft/Scripts/PHPServer
+
+# Start Minecraft Server
+java -Xmx2048M -Xms2048M -jar ./Server --nogui --bonusChest --universe ./ --world World
+
+# Destroy Temporary Environment
+unlink ~/Minecraft/Environment/World
+unlink ~/Minecraft/Environment/Server
+unlink ~/Minecraft/Environment
+
+# Automatic Git
+~/Minecraft/Scripts/AddCommitPush
