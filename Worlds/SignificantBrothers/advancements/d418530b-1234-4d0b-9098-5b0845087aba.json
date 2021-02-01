@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2021-01-24 05:14:31 +0000"
@@ -368,6 +374,12 @@
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-01-30 00:48:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
     },
     "done": true
   },
@@ -810,6 +822,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-01-24 05:35:11 +0000"
@@ -825,6 +843,12 @@
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_blue_flower": "2021-01-29 02:39:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_acacia_wood": {
+    "criteria": {
+      "has_log": "2021-02-01 03:31:39 +0000"
     },
     "done": true
   },
@@ -873,6 +897,12 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2021-01-27 02:45:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2021-01-31 22:51:11 +0000"
     },
     "done": true
   },
@@ -1140,10 +1170,14 @@
       "minecraft:mountains": "2021-01-26 00:53:29 +0000",
       "minecraft:taiga": "2021-01-29 00:55:21 +0000",
       "minecraft:taiga_hills": "2021-01-29 00:55:59 +0000",
+      "minecraft:savanna_plateau": "2021-01-31 23:18:17 +0000",
+      "minecraft:beach": "2021-02-01 01:40:32 +0000",
       "minecraft:dark_forest": "2021-01-27 01:26:04 +0000",
       "minecraft:river": "2021-01-25 01:40:59 +0000",
+      "minecraft:lukewarm_ocean": "2021-02-01 01:41:42 +0000",
       "minecraft:wooded_mountains": "2021-01-27 03:12:00 +0000",
       "minecraft:wooded_hills": "2021-01-26 01:14:50 +0000",
+      "minecraft:savanna": "2021-01-31 22:51:03 +0000",
       "minecraft:plains": "2021-01-24 04:57:04 +0000"
     },
     "done": false
@@ -1286,6 +1320,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_acacia_planks": "2021-02-01 01:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-01-24 05:04:40 +0000"
@@ -1367,6 +1407,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2021-01-24 04:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
     },
     "done": true
   },
@@ -1726,6 +1772,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2021-01-31 22:31:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2021-01-24 05:14:31 +0000"
@@ -1765,6 +1817,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2021-01-26 01:51:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
     },
     "done": true
   },
@@ -1933,6 +1991,12 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2021-01-27 01:26:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
     },
     "done": true
   },
@@ -2290,6 +2354,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2021-01-24 04:44:49 +0000"
@@ -2362,6 +2432,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2021-02-01 01:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2021-01-24 04:40:06 +0000"
@@ -2413,6 +2489,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2021-01-26 01:41:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2021-01-31 22:51:11 +0000"
     },
     "done": true
   },
