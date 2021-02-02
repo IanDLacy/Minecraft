@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Create Temporary Environment
+ln -sT ~/Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
+ln -sT ~/Minecraft/Servers/Vanilla/Server.jar ~/Minecraft/Environment/Server
+ln -sT ~/Minecraft/Worlds/SignificantBrothers/ ~/Minecraft/Environment/World
+cd ~/Minecraft/Environment/
+
+# Update Server Properties
+cat ./ServerProperties ./6P > ./server.properties
+
+# Start Minecraft Server
+java -jar ./Server --nogui --bonusChest --universe ./ --world World
+
+# Destroy Temporary Environment
+unlink ~/Minecraft/Environment/World
+unlink ~/Minecraft/Environment/Server
+unlink ~/Minecraft/Environment
+
+# Automatic Git
+#~/Minecraft/Scripts/AddCommitPush

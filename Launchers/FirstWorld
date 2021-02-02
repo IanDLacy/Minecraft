@@ -9,9 +9,6 @@ cd ~/Minecraft/Environment/
 # Update Server Properties
 cp ./ServerProperties ./server.properties
 
-# Start PHP Server
-#~/Minecraft/Scripts/PHPServer
-
 # Start Minecraft Server
 java -jar ./Server --nogui --bonusChest --universe ./ --world World
 
