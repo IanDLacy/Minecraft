@@ -10,7 +10,7 @@ cd ~/Minecraft/Environment/
 cp ./ServerProperties ./server.properties
 
 # Start PHP Server
-#~/Minecraft/Scripts/PHPServer
+~/Minecraft/Scripts/PHPServer
 
 # Start Minecraft Server
 java -jar ./Server --nogui --bonusChest --universe ./ --world World
@@ -21,4 +21,4 @@ unlink ~/Minecraft/Environment/Server
 unlink ~/Minecraft/Environment
 
 # Automatic Git
-#~/Minecraft/Scripts/AddCommitPush
+~/Minecraft/Scripts/AddCommitPush
