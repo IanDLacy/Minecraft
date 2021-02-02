@@ -13,7 +13,7 @@ cp ./ServerProperties ./server.properties
 ~/Minecraft/Scripts/PHPServer
 
 # Start Minecraft Server
-java -Xmx2048M -Xms2048M -jar ./Server --nogui --bonusChest --universe ./ --world World
+java -Xmx4096M -Xms4096M -jar ./Server --nogui --bonusChest --universe ./ --world World
 
 # Destroy Temporary Environment
 unlink ~/Minecraft/Environment/World

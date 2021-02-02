@@ -48,7 +48,7 @@ resource-pack-sha1=
 # Permissions
 white-list=true
 enforce-whitelist=true
-max-players=8
+max-players=6
 online-mode=true
 prevent-proxy-connections=false
 function-permission-level=4
