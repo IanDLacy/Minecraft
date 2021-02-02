@@ -1,279 +1,55 @@
-[00:23:33] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:23:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:23:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:23:33] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:23:33] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:23:33] [main/INFO]: Reloading ResourceManager: Default
-[00:23:34] [Worker-Main-10/INFO]: Loaded 7 recipes
-[00:23:35] [Worker-Main-10/INFO]: Loaded 927 advancements
-[00:23:37] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[00:23:37] [Server thread/INFO]: Loading properties
-[00:23:37] [Server thread/INFO]: Default game type: ADVENTURE
-[00:23:37] [Server thread/INFO]: Generating keypair
-[00:23:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:23:38] [Server thread/INFO]: Using epoll channel type
-[00:23:38] [Server thread/INFO]: Preparing level "World"
-[00:23:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:41] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:42] [Server thread/INFO]: Preparing spawn area: 0%
-[00:23:42] [Server thread/INFO]: Preparing spawn area: 54%
-[00:23:43] [Server thread/INFO]: Time elapsed: 4519 ms
-[00:23:43] [Server thread/INFO]: Done (4.820s)! For help, type "help"
-[00:23:43] [Server thread/INFO]: Starting GS4 status listener
-[00:23:43] [Server thread/INFO]: Thread Query Listener started
-[00:23:43] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[00:25:22] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[00:25:22] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:5739] logged in with entity id 5629 at (-18.514624113557744, 241.0, -1.7268045252494868)
-[00:25:22] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[00:26:09] [User Authenticator #2/INFO]: UUID of player admiralzachbar is 5dd9a721-e477-440a-9e42-f059440eca56
-[00:26:09] [Server thread/INFO]: admiralzachbar[/68.32.87.77:60932] logged in with entity id 5883 at (132.6905861640751, 99.0, 197.0428305286854)
-[00:26:09] [Server thread/INFO]: admiralzachbar joined the game
-[00:26:35] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[00:26:35] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[00:30:15] [User Authenticator #3/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
-[00:30:15] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:53291] logged in with entity id 6735 at (278.30444924202664, 85.0625, -748.2876525558682)
-[00:30:15] [Server thread/INFO]: xXkwispyXx joined the game
-[00:42:27] [Server thread/WARN]: Fetching packet for removed entity aqg['Experience Orb'/10919, l='ServerLevel[The Bois]', x=44.34, y=66.00, z=-106.25]
-[00:42:27] [Server thread/WARN]: Fetching packet for removed entity bcv['Warped Nylium'/10918, l='ServerLevel[The Bois]', x=43.84, y=66.00, z=-106.13]
-[01:05:21] [User Authenticator #4/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
-[01:05:21] [Server thread/INFO]: DwyertheRed[/98.250.173.2:58215] logged in with entity id 16907 at (90.26333556970347, 57.0, -335.00497722134446)
-[01:05:21] [Server thread/INFO]: DwyertheRed joined the game
-[01:16:27] [Server thread/INFO]: DwyertheRed was slain by Zombie
-[01:21:32] [Server thread/INFO]: DwyertheRed tried to swim in lava to escape Hoglin
-[01:23:24] [Server thread/INFO]: DwyertheRed tried to swim in lava
-[01:23:44] [User Authenticator #5/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
-[01:23:44] [Server thread/INFO]: Djdominique[/67.194.228.220:57547] logged in with entity id 24196 at (-2.7298077492897006, 75.0, -11669.014289829549)
-[01:23:44] [Server thread/INFO]: Djdominique joined the game
-[01:25:09] [Server thread/INFO]: DwyertheRed was slain by Spider
-[01:27:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[01:27:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[01:27:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[01:28:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[01:28:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2276ms or 45 ticks behind
-[01:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3168ms or 63 ticks behind
-[01:29:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4621ms or 92 ticks behind
-[01:29:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3098ms or 61 ticks behind
-[01:29:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01:30:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2548ms or 50 ticks behind
-[01:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2550ms or 51 ticks behind
-[01:30:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2453ms or 49 ticks behind
-[01:30:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2383ms or 47 ticks behind
-[01:31:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2695ms or 53 ticks behind
-[01:31:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
-[01:31:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2829ms or 56 ticks behind
-[01:32:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2974ms or 59 ticks behind
-[01:32:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2645ms or 52 ticks behind
-[01:32:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2313ms or 46 ticks behind
-[01:33:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01:33:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[01:33:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2679ms or 53 ticks behind
-[01:34:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3502ms or 70 ticks behind
-[01:34:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3187ms or 63 ticks behind
-[01:34:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3331ms or 66 ticks behind
-[01:35:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2260ms or 45 ticks behind
-[01:35:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2147ms or 42 ticks behind
-[01:35:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2288ms or 45 ticks behind
-[01:36:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[01:36:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[01:37:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[01:37:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[01:37:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[01:38:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01:38:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[01:39:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[01:39:13] [User Authenticator #6/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[01:39:13] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:29446] logged in with entity id 33528 at (-31.306235478690805, 241.0, 30.76832837369144)
-[01:39:13] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[01:39:22] [Server thread/INFO]: DwyertheRed was slain by Zombie
-[01:39:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3243ms or 64 ticks behind
-[01:39:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[01:40:05] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Elytra] to 08e2fb8e85e43f16]
-[01:40:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2155ms or 43 ticks behind
-[01:40:09] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[01:40:27] [Server thread/INFO]: [@: Removed 1 items from 5 players]
-[01:40:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5113ms or 102 ticks behind
-[01:40:29] [Server thread/INFO]: 08e2fb8e85e43f16 fell from a high place
-[01:40:38] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[01:40:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3950ms or 79 ticks behind
-[01:41:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3324ms or 66 ticks behind
-[01:41:12] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[01:41:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2941ms or 58 ticks behind
-[01:41:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3569ms or 71 ticks behind
-[01:42:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4018ms or 80 ticks behind
-[01:42:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4844ms or 96 ticks behind
-[01:42:41] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[01:42:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5095ms or 101 ticks behind
-[01:43:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
-[01:43:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5072ms or 101 ticks behind
-[01:43:38] [Server thread/INFO]: DwyertheRed tried to swim in lava
-[01:43:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
-[01:44:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[01:44:10] [Server thread/INFO]: DwyertheRed lost connection: Timed out
-[01:44:10] [Server thread/INFO]: DwyertheRed left the game
-[01:44:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[01:45:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[01:45:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-21, y=72, z=-11547} fx{x=-22, y=71, z=-11548}
-[01:45:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[01:45:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[01:46:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2129ms or 42 ticks behind
-[01:46:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4862ms or 97 ticks behind
-[01:46:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2453ms or 49 ticks behind
-[01:47:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01:47:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[01:47:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
-[01:48:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[01:48:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[01:48:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[01:49:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[01:49:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[01:50:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3098ms or 61 ticks behind
-[01:50:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2782ms or 55 ticks behind
-[01:50:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2271ms or 45 ticks behind
-[01:50:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2569ms or 51 ticks behind
-[01:51:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2703ms or 54 ticks behind
-[01:51:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2553ms or 51 ticks behind
-[01:51:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[01:52:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3346ms or 66 ticks behind
-[01:52:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[01:52:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01:53:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[01:53:22] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: You have been idle for too long!
-[01:53:22] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[01:53:40] [User Authenticator #7/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[01:53:40] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:29510] logged in with entity id 41499 at (-120.58682774617931, 68.875, -233.16506248646837)
-[01:53:40] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[01:54:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[01:55:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[01:55:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2408ms or 48 ticks behind
-[01:55:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2300ms or 46 ticks behind
-[01:55:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2429ms or 48 ticks behind
-[01:56:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2717ms or 54 ticks behind
-[01:56:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3887ms or 77 ticks behind
-[01:56:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3916ms or 78 ticks behind
-[01:57:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3158ms or 63 ticks behind
-[01:57:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2299ms or 45 ticks behind
-[01:57:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3563ms or 71 ticks behind
-[01:58:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[01:58:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[01:58:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[01:59:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2187ms or 43 ticks behind
-[01:59:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2236ms or 44 ticks behind
-[01:59:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2815ms or 56 ticks behind
-[01:59:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3485ms or 69 ticks behind
-[02:00:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3275ms or 65 ticks behind
-[02:00:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3251ms or 65 ticks behind
-[02:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3348ms or 66 ticks behind
-[02:01:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3678ms or 73 ticks behind
-[02:01:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3009ms or 60 ticks behind
-[02:01:44] [Server thread/INFO]: Villager bfj['Villager'/44197, l='ServerLevel[The Bois]', x=109.70, y=67.75, z=-10744.30] died, message: 'Villager was slain by Zombie'
-[02:01:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3169ms or 63 ticks behind
-[02:02:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3224ms or 64 ticks behind
-[02:02:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2543ms or 50 ticks behind
-[02:02:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[02:02:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2469ms or 49 ticks behind
-[02:03:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[02:03:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4077ms or 81 ticks behind
-[02:03:40] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: You have been idle for too long!
-[02:03:40] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[02:03:45] [User Authenticator #8/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[02:03:45] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:29533] logged in with entity id 47697 at (-120.58682774617931, 68.875, -233.16506248646837)
-[02:03:45] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[02:03:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:04:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:04:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[02:04:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2495ms or 49 ticks behind
-[02:05:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[02:05:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[02:05:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2789ms or 55 ticks behind
-[02:05:59] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[02:05:59] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[02:06:03] [User Authenticator #9/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[02:06:03] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:29542] logged in with entity id 48882 at (-118.5401175125853, 68.875, -232.56436212628486)
-[02:06:03] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[02:06:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
-[02:07:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[02:08:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[02:08:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[02:08:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2555ms or 51 ticks behind
-[02:09:20] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[02:09:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[02:09:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[02:09:55] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Grass Path] to 08e2fb8e85e43f16]
-[02:10:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[02:10:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[02:10:47] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 3 [Grass Path] to 08e2fb8e85e43f16]
-[02:10:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[02:11:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2081ms or 41 ticks behind
-[02:11:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[02:11:53] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 2 [Grass Path] to 08e2fb8e85e43f16]
-[02:12:04] [Server thread/INFO]: [08e2fb8e85e43f16: Gave 1 [Grass Path] to 08e2fb8e85e43f16]
-[02:14:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2452ms or 49 ticks behind
-[02:15:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[02:16:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[02:16:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[02:18:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[02:19:16] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
-[02:19:16] [Server thread/INFO]: xXkwispyXx left the game
-[02:23:29] [Server thread/INFO]: [@: Replaced a slot on 08e2fb8e85e43f16 with [Elytra]]
-[02:23:29] [Server thread/INFO]: [@: Applied effect Jump Boost to 08e2fb8e85e43f16]
-[02:23:29] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 255.0, 0.5]
-[02:24:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[02:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
-[02:33:05] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Spectator Mode]
-[02:36:50] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.34437126014586283
-[02:36:50] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.7465843409844979
-[02:36:50] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.4343163592176893
-[02:36:50] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.4343163592176893
-[02:37:19] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to Djdominique]
-[02:38:41] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to 0.5, 255.0, 0.5]
-[02:38:45] [Server thread/INFO]: [@: Removed 1 items from 3 players]
-[02:41:45] [Server thread/INFO]: [08e2fb8e85e43f16: Teleported 08e2fb8e85e43f16 to Djdominique]
-[02:43:20] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[02:45:13] [Server thread/INFO]: [@: Replaced a slot on 08e2fb8e85e43f16 with [Elytra]]
-[02:45:13] [Server thread/INFO]: [@: Applied effect Jump Boost to 08e2fb8e85e43f16]
-[02:45:13] [Server thread/INFO]: [@: Teleported 08e2fb8e85e43f16 to 0.5, 255.0, 0.5]
-[02:46:15] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[02:46:15] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[02:49:12] [Server thread/WARN]: Horse (vehicle of Djdominique) moved wrongly! 0.25480178437931045
-[02:54:20] [Server thread/INFO]: admiralzachbar lost connection: Disconnected
-[02:54:20] [Server thread/INFO]: admiralzachbar left the game
-[03:01:14] [Server thread/INFO]: Djdominique burned to death
-[03:03:34] [Server thread/INFO]: Djdominique lost connection: Disconnected
-[03:03:34] [Server thread/INFO]: Djdominique left the game
-[03:06:51] [User Authenticator #10/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[03:06:51] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:29135] logged in with entity id 77975 at (-116.2791202663514, 69.0, -232.02129911778079)
-[03:06:51] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[03:25:40] [Server thread/INFO]: [@: Removed 1 items from player 08e2fb8e85e43f16]
-[03:27:16] [Server thread/INFO]: 08e2fb8e85e43f16 fell from a high place
-[03:45:39] [User Authenticator #11/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
-[03:45:39] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:54890] logged in with entity id 83034 at (276.2896112561925, 69.9375, -737.0198577084551)
-[03:45:39] [Server thread/INFO]: xXkwispyXx joined the game
-[04:04:48] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[04:05:06] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[04:34:26] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Creative Mode]
-[04:35:29] [Server thread/INFO]: [08e2fb8e85e43f16: Set own game mode to Survival Mode]
-[04:43:52] [Server thread/INFO]: xXkwispyXx lost connection: Disconnected
-[04:43:52] [Server thread/INFO]: xXkwispyXx left the game
-[05:00:23] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
-[05:01:08] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[05:01:08] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[05:01:20] [Server thread/INFO]: Stopping the server
-[05:01:20] [Server thread/INFO]: Stopping server
-[05:01:20] [Server thread/INFO]: Saving players
-[05:01:20] [Server thread/INFO]: Saving worlds
-[05:01:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
-[05:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
-[05:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
-[05:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
-[05:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
-[05:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:01:21] [Server thread/INFO]: Thread Query Listener stopped
+[14:20:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:20:32] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:20:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:20:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:20:32] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:20:32] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:20:32] [main/INFO]: Reloading ResourceManager: Default
+[14:20:34] [Worker-Main-2/INFO]: Loaded 7 recipes
+[14:20:34] [Worker-Main-2/INFO]: Loaded 927 advancements
+[14:20:38] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[14:20:38] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[14:20:38] [Server thread/INFO]: Loading properties
+[14:20:38] [Server thread/INFO]: Default game type: ADVENTURE
+[14:20:38] [Server thread/INFO]: Generating keypair
+[14:20:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:20:39] [Server thread/INFO]: Using epoll channel type
+[14:20:39] [Server thread/INFO]: Preparing level "World"
+[14:20:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:43] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:20:44] [Server thread/INFO]: Preparing spawn area: 9%
+[14:20:45] [Server thread/INFO]: Preparing spawn area: 50%
+[14:20:46] [Server thread/INFO]: Time elapsed: 6077 ms
+[14:20:46] [Server thread/INFO]: Done (6.287s)! For help, type "help"
+[14:20:46] [Server thread/INFO]: Starting GS4 status listener
+[14:20:46] [Server thread/INFO]: Thread Query Listener started
+[14:20:46] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[14:26:41] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[14:26:41] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:2463] logged in with entity id 5668 at (-119.90714186173729, 68.875, -231.93425940121344)
+[14:26:41] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[14:30:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2127ms or 42 ticks behind
+[15:30:30] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[15:30:34] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[15:30:34] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[15:30:44] [Server thread/INFO]: Stopping the server
+[15:30:44] [Server thread/INFO]: Stopping server
+[15:30:44] [Server thread/INFO]: Saving players
+[15:30:44] [Server thread/INFO]: Saving worlds
+[15:30:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[15:30:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[15:30:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[15:30:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:30:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[15:30:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:30:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[15:30:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:30:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:30:46] [Server thread/INFO]: Thread Query Listener stopped

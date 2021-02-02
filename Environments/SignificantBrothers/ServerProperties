@@ -36,7 +36,8 @@ spawn-protection=32
 enable-command-block=true
 
 # Server Identity
-motd=Now Running On A 'Thicc Boi Over There' Virtual Machine
+# motd=Now Running On A 'Thicc Boi Over There' Virtual Machine
+motd=Server Is In Development Mode, Changes Will Not Be Saved
 enable-status=true
 enable-query=true
 query.port=25565
@@ -48,7 +49,7 @@ resource-pack-sha1=
 # Permissions
 white-list=true
 enforce-whitelist=true
-max-players=6
+max-players=2
 online-mode=true
 prevent-proxy-connections=false
 function-permission-level=4

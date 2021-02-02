@@ -10,10 +10,10 @@ cd ~/Minecraft/Environment/
 cp ./ServerProperties ./server.properties
 
 # Start PHP Server
-~/Minecraft/Scripts/PHPServer
+#~/Minecraft/Scripts/PHPServer
 
 # Start Minecraft Server
-java -Xmx4096M -Xms4096M -jar ./Server --nogui --bonusChest --universe ./ --world World
+java -jar ./Server --nogui --bonusChest --universe ./ --world World
 
 # Destroy Temporary Environment
 unlink ~/Minecraft/Environment/World
@@ -21,4 +21,4 @@ unlink ~/Minecraft/Environment/Server
 unlink ~/Minecraft/Environment
 
 # Automatic Git
-~/Minecraft/Scripts/AddCommitPush
+#~/Minecraft/Scripts/AddCommitPush
