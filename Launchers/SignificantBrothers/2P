@@ -18,4 +18,4 @@ unlink ~/Minecraft/Environment/Server
 unlink ~/Minecraft/Environment
 
 # Automatic Git
-#~/Minecraft/Scripts/AddCommitPush
+~/Minecraft/Scripts/AddCommitPush
