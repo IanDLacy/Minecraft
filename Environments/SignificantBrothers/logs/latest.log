@@ -1,96 +1,150 @@
-[00:03:30] [User Authenticator #1/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
-[00:03:30] [Server thread/INFO]: Djdominique[/67.194.228.220:65283] logged in with entity id 5670 at (79.96489917610471, 68.0625, -201.20469932378208)
-[00:03:30] [Server thread/INFO]: Djdominique joined the game
-[00:03:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[00:03:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[00:07:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
-[00:09:18] [Server thread/INFO]: Djdominique lost connection: Disconnected
-[00:09:18] [Server thread/INFO]: Djdominique left the game
-[00:09:20] [User Authenticator #2/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
-[00:09:20] [Server thread/INFO]: Djdominique[/67.194.228.220:64717] logged in with entity id 6798 at (66.27629277864075, 66.0, -181.69999998807907)
-[00:09:20] [Server thread/INFO]: Djdominique joined the game
-[00:12:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[00:17:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[00:22:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2125ms or 42 ticks behind
-[00:27:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[00:28:34] [User Authenticator #3/INFO]: UUID of player admiralzachbar is 5dd9a721-e477-440a-9e42-f059440eca56
-[00:28:34] [Server thread/INFO]: admiralzachbar[/68.32.87.77:56241] logged in with entity id 9567 at (160.53005571263554, 78.0, 259.3616750223192)
-[00:28:34] [Server thread/INFO]: admiralzachbar joined the game
-[00:28:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
-[00:30:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[00:31:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[00:31:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2245ms or 44 ticks behind
-[00:31:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4049ms or 80 ticks behind
-[00:32:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[00:32:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[00:32:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7423ms or 148 ticks behind
-[00:33:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2736ms or 54 ticks behind
-[00:33:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2796ms or 55 ticks behind
-[00:33:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2418ms or 48 ticks behind
-[00:34:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5817ms or 116 ticks behind
-[00:34:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6054ms or 121 ticks behind
-[00:34:34] [User Authenticator #4/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
-[00:34:34] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@476495dd[id=af016191-f51b-4991-b253-29c2f3009b4a,name=xXkwispyXx,properties={textures=[com.mojang.authlib.properties.Property@68918363]},legacy=false] (/98.243.151.65:51736): The server is full!
-[00:34:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@476495dd[id=af016191-f51b-4991-b253-29c2f3009b4a,name=xXkwispyXx,properties={textures=[com.mojang.authlib.properties.Property@68918363]},legacy=false] (/98.243.151.65:51736) lost connection: The server is full!
-[00:34:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4555ms or 91 ticks behind
-[00:34:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2573ms or 51 ticks behind
-[00:35:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2920ms or 58 ticks behind
-[00:35:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2872ms or 57 ticks behind
-[00:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2677ms or 53 ticks behind
-[00:36:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3097ms or 61 ticks behind
-[00:36:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3798ms or 75 ticks behind
-[00:36:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4238ms or 84 ticks behind
-[00:37:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2867ms or 57 ticks behind
-[00:37:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2856ms or 57 ticks behind
-[00:37:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[00:37:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
-[00:38:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2650ms or 53 ticks behind
-[00:38:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3538ms or 70 ticks behind
-[00:38:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7228ms or 144 ticks behind
-[00:39:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2924ms or 58 ticks behind
-[00:39:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
-[00:39:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2693ms or 53 ticks behind
-[00:40:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3051ms or 61 ticks behind
-[00:40:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3058ms or 61 ticks behind
-[00:40:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3973ms or 79 ticks behind
-[00:41:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
-[00:41:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
-[00:41:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2438ms or 48 ticks behind
-[00:42:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[00:42:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[00:43:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[00:43:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[00:43:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[00:44:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
-[00:44:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5907ms or 118 ticks behind
-[00:44:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
-[00:45:36] [Server thread/INFO]: Djdominique lost connection: Disconnected
-[00:45:36] [Server thread/INFO]: Djdominique left the game
-[00:54:00] [User Authenticator #5/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
-[00:54:00] [Server thread/INFO]: Djdominique[/67.194.228.220:49222] logged in with entity id 14164 at (77.5, 68.0625, -203.5)
-[00:54:00] [Server thread/INFO]: Djdominique joined the game
-[00:54:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[00:54:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3420ms or 68 ticks behind
-[00:54:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4756ms or 95 ticks behind
-[00:55:02] [Server thread/INFO]: admiralzachbar lost connection: Disconnected
-[00:55:02] [Server thread/INFO]: admiralzachbar left the game
-[00:55:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[00:55:08] [Server thread/INFO]: save-asave-all<--[HERE]
-[00:55:13] [Server thread/INFO]: Saving the game (this may take a moment!)
-[00:55:14] [Server thread/INFO]: Saved the game
-[00:55:18] [Server thread/INFO]: Stopping the server
-[00:55:18] [Server thread/INFO]: Stopping server
-[00:55:18] [Server thread/INFO]: Saving players
-[00:55:18] [Server thread/INFO]: Djdominique lost connection: Server closed
-[00:55:18] [Server thread/INFO]: Djdominique left the game
-[00:55:18] [Server thread/INFO]: Saving worlds
-[00:55:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
-[00:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
-[00:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
-[00:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
-[00:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
-[00:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:55:20] [Server thread/INFO]: Thread Query Listener stopped
+[01:00:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:00:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:05] [main/INFO]: Reloading ResourceManager: Default
+[01:00:07] [Worker-Main-5/INFO]: Loaded 7 recipes
+[01:00:08] [Worker-Main-5/INFO]: Loaded 927 advancements
+[01:00:10] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[01:00:10] [Server thread/INFO]: Loading properties
+[01:00:10] [Server thread/INFO]: Default game type: ADVENTURE
+[01:00:10] [Server thread/INFO]: Generating keypair
+[01:00:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:11] [Server thread/INFO]: Using epoll channel type
+[01:00:12] [Server thread/INFO]: Preparing level "World"
+[01:00:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:16] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:16] [Server thread/INFO]: Preparing spawn area: 20%
+[01:00:17] [Server thread/INFO]: Time elapsed: 5246 ms
+[01:00:17] [Server thread/INFO]: Done (5.482s)! For help, type "help"
+[01:00:17] [Server thread/INFO]: Starting GS4 status listener
+[01:00:17] [Server thread/INFO]: Thread Query Listener started
+[01:00:17] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:01:13] [User Authenticator #1/INFO]: UUID of player admiralzachbar is 5dd9a721-e477-440a-9e42-f059440eca56
+[01:01:13] [Server thread/INFO]: admiralzachbar[/68.32.87.77:56376] logged in with entity id 5665 at (190.00272623814834, 97.0, 290.6271536957463)
+[01:01:13] [Server thread/INFO]: admiralzachbar joined the game
+[01:01:17] [User Authenticator #2/INFO]: UUID of player Djdominique is d418530b-1234-4d0b-9098-5b0845087aba
+[01:01:17] [Server thread/INFO]: Djdominique[/67.194.228.220:49306] logged in with entity id 5737 at (68.77918549667677, 71.5, -182.1304542249887)
+[01:01:17] [Server thread/INFO]: Djdominique joined the game
+[01:02:07] [User Authenticator #3/INFO]: UUID of player xXkwispyXx is af016191-f51b-4991-b253-29c2f3009b4a
+[01:02:07] [Server thread/INFO]: xXkwispyXx[/98.243.151.65:52017] logged in with entity id 6433 at (274.76163963390354, 77.0, -709.7364018621855)
+[01:02:07] [Server thread/INFO]: xXkwispyXx joined the game
+[01:02:17] [User Authenticator #4/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[01:02:17] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:1786] logged in with entity id 6580 at (-120.05200806751823, 68.875, -232.0075931287657)
+[01:02:17] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[01:02:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[01:02:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4288ms or 85 ticks behind
+[01:02:50] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[01:02:50] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[01:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2212ms or 44 ticks behind
+[01:05:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[01:05:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6875ms or 137 ticks behind
+[01:05:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[01:10:19] [Server thread/INFO]: <xXkwispyXx> SLEEP TIME
+[01:10:24] [Server thread/INFO]: <xXkwispyXx> GET THE FUCK IN BED
+[01:13:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[01:13:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:13:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[01:14:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[01:14:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2227ms or 44 ticks behind
+[01:14:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3986ms or 79 ticks behind
+[01:15:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[01:15:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3260ms or 65 ticks behind
+[01:15:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2660ms or 53 ticks behind
+[01:16:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4676ms or 93 ticks behind
+[01:16:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[01:17:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2831ms or 56 ticks behind
+[01:17:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3615ms or 72 ticks behind
+[01:17:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2412ms or 48 ticks behind
+[01:18:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[01:18:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2184ms or 43 ticks behind
+[01:18:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2372ms or 47 ticks behind
+[01:19:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:19:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[01:19:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2268ms or 45 ticks behind
+[01:20:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[01:21:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[01:26:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[01:27:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[01:28:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[01:30:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
+[01:31:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2884ms or 57 ticks behind
+[01:31:55] [Server thread/INFO]: Djdominique was blown up by Creeper
+[01:32:10] [User Authenticator #5/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[01:32:10] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:2004] logged in with entity id 17652 at (-121.41048030072196, 68.875, -230.44170850954697)
+[01:32:10] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[01:32:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[01:32:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
+[01:32:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3089ms or 61 ticks behind
+[01:33:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[01:33:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2991ms or 59 ticks behind
+[01:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2854ms or 57 ticks behind
+[01:33:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2317ms or 46 ticks behind
+[01:34:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[01:34:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2918ms or 58 ticks behind
+[01:35:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3524ms or 70 ticks behind
+[01:35:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2479ms or 49 ticks behind
+[01:35:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4780ms or 95 ticks behind
+[01:35:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5144ms or 102 ticks behind
+[01:36:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2241ms or 44 ticks behind
+[01:36:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3444ms or 68 ticks behind
+[01:36:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3048ms or 60 ticks behind
+[01:37:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2359ms or 47 ticks behind
+[01:37:17] [User Authenticator #6/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[01:37:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4730f173[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@18d16294]},legacy=false] (/98.250.173.2:59927): The server is full!
+[01:37:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@4730f173[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@18d16294]},legacy=false] (/98.250.173.2:59927) lost connection: The server is full!
+[01:37:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2306ms or 46 ticks behind
+[01:37:32] [User Authenticator #7/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[01:37:32] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@408bd034[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@3e2333be]},legacy=false] (/98.250.173.2:59933): The server is full!
+[01:37:32] [Server thread/INFO]: com.mojang.authlib.GameProfile@408bd034[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@3e2333be]},legacy=false] (/98.250.173.2:59933) lost connection: The server is full!
+[01:37:40] [User Authenticator #8/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[01:37:41] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@23d0dbe0[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@d6f3e73]},legacy=false] (/98.250.173.2:59935): The server is full!
+[01:37:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@23d0dbe0[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@d6f3e73]},legacy=false] (/98.250.173.2:59935) lost connection: The server is full!
+[01:37:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4375ms or 87 ticks behind
+[01:37:54] [User Authenticator #9/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[01:37:54] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@360923b4[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@783f9af7]},legacy=false] (/98.250.173.2:59937): The server is full!
+[01:37:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@360923b4[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@783f9af7]},legacy=false] (/98.250.173.2:59937) lost connection: The server is full!
+[01:38:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2566ms or 51 ticks behind
+[01:38:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:38:26] [User Authenticator #10/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[01:38:27] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1e5cdcf9[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@4e1bee66]},legacy=false] (/98.250.173.2:59944): The server is full!
+[01:38:27] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e5cdcf9[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@4e1bee66]},legacy=false] (/98.250.173.2:59944) lost connection: The server is full!
+[01:38:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2472ms or 49 ticks behind
+[01:38:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3204ms or 64 ticks behind
+[01:39:17] [User Authenticator #11/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[01:39:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6f178a30[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@277988c8]},legacy=false] (/98.250.173.2:59955): The server is full!
+[01:39:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@6f178a30[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@277988c8]},legacy=false] (/98.250.173.2:59955) lost connection: The server is full!
+[01:39:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6469ms or 129 ticks behind
+[01:39:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4500ms or 90 ticks behind
+[01:39:52] [User Authenticator #12/INFO]: UUID of player DwyertheRed is 4831359c-97b0-4f6a-a441-a988e3b308be
+[01:39:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@7d862845[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@2df6f73]},legacy=false] (/98.250.173.2:59959): The server is full!
+[01:39:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@7d862845[id=4831359c-97b0-4f6a-a441-a988e3b308be,name=DwyertheRed,properties={textures=[com.mojang.authlib.properties.Property@2df6f73]},legacy=false] (/98.250.173.2:59959) lost connection: The server is full!
+[01:39:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4017ms or 80 ticks behind
+[01:40:12] [Server thread/INFO]: [08e2fb8e85e43f16: Saved the game]
+[01:40:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4572ms or 91 ticks behind
+[01:40:22] [Server thread/INFO]: [08e2fb8e85e43f16: Stopping the server]
+[01:40:22] [Server thread/INFO]: Stopping server
+[01:40:22] [Server thread/INFO]: Saving players
+[01:40:22] [Server thread/INFO]: admiralzachbar lost connection: Server closed
+[01:40:22] [Server thread/INFO]: admiralzachbar left the game
+[01:40:22] [Server thread/INFO]: Saving worlds
+[01:40:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[01:40:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[01:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[01:40:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:40:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[01:40:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:40:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[01:40:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:40:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:40:24] [Server thread/INFO]: Thread Query Listener stopped
