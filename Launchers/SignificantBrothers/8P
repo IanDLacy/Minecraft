@@ -4,6 +4,8 @@
 ln -sT ~/Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
 ln -sT ~/Minecraft/Servers/Vanilla/Server.jar ~/Minecraft/Environment/Server
 ln -sT ~/Minecraft/Worlds/SignificantBrothers/ ~/Minecraft/Environment/World
+
+# Move To Temporary Environment
 cd ~/Minecraft/Environment/
 
 # Update Server Properties
