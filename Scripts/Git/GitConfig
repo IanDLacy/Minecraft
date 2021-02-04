@@ -1,0 +1,3 @@
+git config --global user.email "Ian.D.Lacy@Gmail.com"
+git config --global user.name "IanDLacy"
+git config --global credential.helper store
