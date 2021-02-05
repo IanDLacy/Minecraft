@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# Create RAM Disk
+#~/Minecraft/Scripts/TmpFS/MakeDirectory
+#~/Minecraft/Scripts/TmpFS/Mount
+
+# Load World Into RAM Disk
+#sudo cp -r ~/Minecraft/Worlds/SignificantBrothers/* /mnt/TmpFS/
+
+# Create Temporary Environment
+ln -sT ~/.Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
+ln -sT ~/Minecraft/Servers/Vanilla/Server.jar ~/Minecraft/Environment/Server
+ln -sT /mnt/TmpFS/ ~/Minecraft/Environment/World
+cd ~/Minecraft/Environment/
+
+# Update Server Properties
+rm ./server.properties
+./Configuration/Game >> ./server.properties
+./Configuration/Network >> ./server.properties
+./Configuration/Other >> ./server.properties
+./Configuration/Performance >> ./server.properties
+./Configuration/Permissions >> ./server.properties
+./Configuration/RemoteConsole >> ./server.properties
+./Configuration/ResourcePack >> ./server.properties
+./Configuration/ServerIdentity >> ./server.properties
+./Configuration/WorldGeneration >> ./server.properties
+
+# Start Minecraft Server
+sudo java -jar ./Server --nogui --bonusChest --universe ./ --world World
+
+# Destroy Temporary Environment
+unlink ~/Minecraft/Environment/World
+unlink ~/Minecraft/Environment/Server
+unlink ~/Minecraft/Environment
+
+# Unload World From RAM Disk
+#sudo cp -r /mnt/TmpFS/* ~/Minecraft/Worlds/SignificantBrothers/
+
+# Destroy RAM Disk
+#~/Minecraft/Scripts/TmpFS/Unmount
+
+# Automatic Git
+#~/Minecraft/Scripts/Git/AddCommitPush
