@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo umount /mnt/Cache/
+sudo rmdir /mnt/Cache/
