@@ -1,54 +1,53 @@
-[03:30:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:30:18] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:30:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:30:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:30:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:30:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:30:18] [main/INFO]: Reloading ResourceManager: Default
-[03:30:19] [Worker-Main-13/INFO]: Loaded 7 recipes
-[03:30:20] [Worker-Main-13/INFO]: Loaded 927 advancements
-[03:30:22] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[03:30:22] [Server thread/INFO]: Loading properties
-[03:30:22] [Server thread/INFO]: Default game type: ADVENTURE
-[03:30:22] [Server thread/INFO]: Generating keypair
-[03:30:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:30:22] [Server thread/INFO]: Using epoll channel type
-[03:30:23] [Server thread/INFO]: Preparing level "World"
-[03:30:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:30:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:30:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:30:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:30:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:30:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:30:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:30:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:30:27] [Server thread/INFO]: Preparing spawn area: 41%
-[03:30:27] [Server thread/INFO]: Time elapsed: 3894 ms
-[03:30:27] [Server thread/INFO]: Done (4.180s)! For help, type "help"
-[03:30:27] [Server thread/INFO]: Starting GS4 status listener
-[03:30:27] [Server thread/INFO]: Thread Query Listener started
-[03:30:27] [Server thread/INFO]: Starting remote control listener
-[03:30:27] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[03:30:27] [Server thread/INFO]: Thread RCON Listener started
-[03:30:27] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[03:30:35] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
-[03:30:36] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:1293] logged in with entity id 16 at (288.9597571262884, 89.11813596549652, -206.49500898938544)
-[03:30:36] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
-[03:30:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[03:33:09] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
-[03:33:09] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
-[03:33:24] [Server thread/INFO]: Stopping the server
-[03:33:24] [Server thread/INFO]: Stopping server
-[03:33:24] [Server thread/INFO]: Saving players
-[03:33:24] [Server thread/INFO]: Saving worlds
-[03:33:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
-[03:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
-[03:33:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
-[03:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:33:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
-[03:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
-[03:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:33:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:33:26] [Server thread/INFO]: Thread RCON Listener stopped
-[03:33:27] [Server thread/INFO]: Thread Query Listener stopped
+[03:52:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:52:12] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:52:12] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:52:12] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:52:12] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:52:12] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:52:12] [main/INFO]: Reloading ResourceManager: Default
+[03:52:14] [Worker-Main-12/INFO]: Loaded 7 recipes
+[03:52:14] [Worker-Main-12/INFO]: Loaded 927 advancements
+[03:52:17] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[03:52:17] [Server thread/INFO]: Loading properties
+[03:52:17] [Server thread/INFO]: Default game type: ADVENTURE
+[03:52:17] [Server thread/INFO]: Generating keypair
+[03:52:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:52:17] [Server thread/INFO]: Using epoll channel type
+[03:52:18] [Server thread/INFO]: Preparing level "World"
+[03:52:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:52:22] [Server thread/INFO]: Time elapsed: 4148 ms
+[03:52:22] [Server thread/INFO]: Done (4.419s)! For help, type "help"
+[03:52:22] [Server thread/INFO]: Starting GS4 status listener
+[03:52:22] [Server thread/INFO]: Thread Query Listener started
+[03:52:22] [Server thread/INFO]: Starting remote control listener
+[03:52:22] [Server thread/INFO]: Thread RCON Listener started
+[03:52:22] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[03:52:22] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[03:52:41] [User Authenticator #1/INFO]: UUID of player 08e2fb8e85e43f16 is 17f14d43-8c99-4e2b-90b5-4bbd18e7df4b
+[03:52:41] [Server thread/INFO]: 08e2fb8e85e43f16[/23.28.207.214:23594] logged in with entity id 51 at (77.29710842287776, 82.52695289681841, -200.06558996226565)
+[03:52:41] [Server thread/INFO]: 08e2fb8e85e43f16 joined the game
+[03:53:30] [Server thread/INFO]: 08e2fb8e85e43f16 lost connection: Disconnected
+[03:53:30] [Server thread/INFO]: 08e2fb8e85e43f16 left the game
+[05:42:56] [Server thread/INFO]: Stopping the server
+[05:42:56] [Server thread/INFO]: Stopping server
+[05:42:56] [Server thread/INFO]: Saving players
+[05:42:56] [Server thread/INFO]: Saving worlds
+[05:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:overworld
+[05:42:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[05:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_nether
+[05:42:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:42:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[The Bois]'/minecraft:the_end
+[05:42:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:42:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[05:42:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:42:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:42:56] [Server thread/INFO]: Thread RCON Listener stopped
+[05:42:56] [Server thread/INFO]: Thread Query Listener stopped
