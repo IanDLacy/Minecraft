@@ -5,7 +5,7 @@
 #~/Minecraft/Scripts/TmpFS/Mount
 
 # Load World Into RAM Disk
-#sudo cp -r ~/Minecraft/Worlds/SignificantBrothers/* /mnt/TmpFS/
+sudo cp -r ~/Minecraft/Worlds/SignificantBrothers/* /mnt/TmpFS/
 
 # Create Temporary Environment
 ln -sT ~/.Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
@@ -15,15 +15,15 @@ cd ~/Minecraft/Environment/
 
 # Update Server Properties
 rm ./server.properties
-./Configuration/Game >> ./server.properties
-./Configuration/Network >> ./server.properties
-./Configuration/Other >> ./server.properties
-./Configuration/Performance >> ./server.properties
-./Configuration/Permissions >> ./server.properties
-./Configuration/RemoteConsole >> ./server.properties
-./Configuration/ResourcePack >> ./server.properties
-./Configuration/ServerIdentity >> ./server.properties
-./Configuration/WorldGeneration >> ./server.properties
+cat ./Configuration/Game >> ./server.properties
+cat ./Configuration/Network >> ./server.properties
+cat ./Configuration/Other >> ./server.properties
+cat ./Configuration/Performance >> ./server.properties
+cat ./Configuration/Permissions >> ./server.properties
+cat ./Configuration/RemoteConsole >> ./server.properties
+cat ./Configuration/ResourcePack >> ./server.properties
+cat ./Configuration/ServerIdentity >> ./server.properties
+cat ./Configuration/WorldGeneration >> ./server.properties
 
 # Start Minecraft Server
 sudo java -jar ./Server --nogui --bonusChest --universe ./ --world World
