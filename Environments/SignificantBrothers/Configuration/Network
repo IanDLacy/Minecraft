@@ -1,0 +1,5 @@
+# Network
+server-ip=
+server-port=25565
+network-compression-threshold=256
+use-native-transport=true

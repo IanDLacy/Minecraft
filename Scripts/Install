@@ -1,16 +1,29 @@
 #!/bin/sh
+
 echo "\n\nUpdating Package Lists :\n"
-echo "$ sudo apt update\n"
-sudo apt update
+echo "$ sudo apt-get --assume-yes update\n"
+sudo apt-get --assume-yes update
+
 echo "\n\nUpdating Packages :\n"
-echo "$ sudo apt upgrade\n"
-sudo apt upgrade
+echo "$ sudo apt-get --assume-yes dist-upgrade\n"
+sudo apt-get --assume-yes dist-upgrade
+
 echo "\n\nInstalling Utilities :\n"
-echo "$ sudo apt install git htop less speedtest-cli\n"
-sudo apt install git htop less speedtest-cli
+echo "$ sudo apt-get --assume-yes install git htop less speedtest-cli\n"
+sudo apt-get --assume-yes install git htop less speedtest-cli
+
 echo "\n\nInstalling Dependencies :\n"
-echo "$ sudo apt install default-jdk\n"
-sudo apt install default-jdk
+echo "$ sudo apt-get --assume-yes install default-jdk\n"
+sudo apt-get --assume-yes install default-jdk
+
+echo "\n\nCreating User Folder :\n"
+echo "$ mkdir ~/.Minecraft/"
+mkdir ~/.Minecraft/
+
+echo "\n\nInstalling Environments :\n"
+echo "$ cp -r ~/Minecraft/Environments/ ~/.Minecraft/Environments/"
+cp -r ~/Minecraft/Environments/ ~/.Minecraft/Environments/
+
 #echo "\n\nDownloading Vanilla Minecraft Server :\n"
 #echo "$ curl -O https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar\n"
 #curl -O https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
@@ -36,7 +49,9 @@ sudo apt install default-jdk
 #echo "$ chmod +x ./Start\n"
 #echo "#!/bin/sh\ncd $(pwd)\nexec java -Xmx2048M -Xms2048M -jar $(pwd)/server.jar --nogui --bonusChest" > ./Start
 #chmod +x ./Start
-#echo "\n\nListing Directory Contents :\n"
-#echo "$ ls -la ./\n"
-#ls -la ./
-#echo "\n\nCompleting Installation :\n\nExecute Start Script To Launch Minecraft Server\n\n"
+
+echo "\n\nListing Directory Contents :\n"
+echo "$ ls -la ./\n"
+ls -la ./
+
+echo "\n\nInstallation Complete\n\n"

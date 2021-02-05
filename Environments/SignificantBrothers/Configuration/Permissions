@@ -1,0 +1,10 @@
+# Permissions
+white-list=true
+enforce-whitelist=true
+online-mode=true
+prevent-proxy-connections=false
+function-permission-level=4
+op-permission-level=4
+broadcast-console-to-ops=false
+player-idle-timeout=10
+rate-limit=0

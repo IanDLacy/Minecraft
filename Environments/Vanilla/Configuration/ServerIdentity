@@ -1,0 +1,5 @@
+# Server Identity
+motd=Message Of The Day
+enable-status=true
+enable-query=true
+query.port=25565

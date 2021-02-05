@@ -1,0 +1,6 @@
+# Performance
+view-distance=16
+entity-broadcast-range-percentage=100
+max-tick-time=60000
+sync-chunk-writes=false
+enable-jmx-monitoring=false

@@ -1,0 +1,7 @@
+# World Generation
+level-name=NewWorld
+level-type=largebiomes
+level-seed=
+generate-structures=true
+generator-settings=
+max-world-size=29999984

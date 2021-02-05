@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "\n\nCopying Environments :\n"
+echo "$ cp -r ~/.Minecraft/Environments/ ~/Minecraft/Environments/"
+cp -r ~/.Minecraft/Environments/ ~/Minecraft/Environments/
+
+echo "\n\nRepack Complete\n\n"

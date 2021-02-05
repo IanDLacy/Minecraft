@@ -1,0 +1,7 @@
+# World Generation
+level-name=world
+level-type=default
+level-seed=
+generate-structures=true
+generator-settings=
+max-world-size=29999984

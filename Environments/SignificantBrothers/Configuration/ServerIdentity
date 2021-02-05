@@ -1,0 +1,7 @@
+# Server Identity
+# motd=Now Running On A 'Thicc Boi Over There' Virtual Machine
+# motd=Development Mode : Changes May Not Be Saved
+# motd=Smol Boi Server For 1 To 2 Players
+enable-status=true
+enable-query=true
+query.port=25565

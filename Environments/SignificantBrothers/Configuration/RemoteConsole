@@ -1,0 +1,5 @@
+# Remote Console
+enable-rcon=true
+rcon.port=25575
+rcon.password=
+broadcast-rcon-to-ops=true
