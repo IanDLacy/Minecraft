@@ -1,13 +1,10 @@
 #!/bin/sh
 
-sudo fallocate -l 1GiB /Swap
-sudo chmod 600 /Swap
-sudo mkswap /Swap
+sudo fallocate -l 1GiB /mnt/Cache/Swap
+sudo chmod 600 /mnt/Cache/Swap
+sudo mkswap /mnt/Cache/Swap
 
-sudo swapon /Swap
-sudo swapon --show
-
-#sudo bash -c "echo \"/Swap swap swap defaults 0 0\" >> /etc/fstab"
+#sudo bash -c "echo \"/mnt/Cache/Swap swap swap defaults 0 0\" >> /etc/fstab"
 
 cat /proc/sys/vm/swappiness
 sudo sysctl vm.swappiness=10

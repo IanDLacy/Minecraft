@@ -1,5 +1,3 @@
 #!/bin/sh
 
-sudo swapoff -v /Swap
-sudo rm /Swap
-sudo swapon --show
+sudo rm /mnt/Cache/Swap

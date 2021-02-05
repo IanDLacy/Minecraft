@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo mkdir /mnt/Storage/
+sudo mount -o discard,defaults /dev/disk/by-id/google-storage0 /mnt/Storage/
+sudo chmod a+w /mnt/Storage/

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo mkdir /mnt/Transport/
+sudo mount -o discard,defaults /dev/disk/by-id/google-transport0 /mnt/Transport/
+sudo chmod a+w /mnt/Transport/

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo mkdir /mnt/TmpFS/
+sudo mount -t tmpfs -o size=4g tmpfs /mnt/TmpFS/
 sudo chmod a+w /mnt/TmpFS/
-sudo mount -t tmpfs -o size=2g tmpfs /mnt/TmpFS/
 
 #sudo bash -c "echo \"tmpfs /mnt/TmpFS/ tmpfs nodev,nosuid,noexec,nodiratime,size=2G 0 0\" >> /etc/fstab"
