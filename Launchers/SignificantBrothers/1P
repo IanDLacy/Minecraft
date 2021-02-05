@@ -5,7 +5,7 @@
 ~/Minecraft/Scripts/TmpFS/Mount
 
 # Load World Into RAM Disk
-sudo cp -r ~/Minecraft/Worlds/SignificantBrothers/ /mnt/TmpFS/
+sudo cp -r ~/Minecraft/Worlds/SignificantBrothers/* /mnt/TmpFS/
 
 # Create Temporary Environment
 ln -sT ~/Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
@@ -17,7 +17,7 @@ cd ~/Minecraft/Environment/
 cat ./ServerProperties ./1P > ./server.properties
 
 # Start Minecraft Server
-java -jar ./Server --nogui --bonusChest --universe ./ --world World
+sudo java -jar ./Server --nogui --bonusChest --universe ./ --world World
 
 # Destroy Temporary Environment
 unlink ~/Minecraft/Environment/World
@@ -25,7 +25,7 @@ unlink ~/Minecraft/Environment/Server
 unlink ~/Minecraft/Environment
 
 # Unload World From RAM Disk
-sudo cp -r /mnt/TmpFS/ ~/Minecraft/Worlds/SignificantBrothers/
+sudo cp -r /mnt/TmpFS/* ~/Minecraft/Worlds/SignificantBrothers/
 
 # Destroy RAM Disk
 ~/Minecraft/Scripts/TmpFS/Unmount

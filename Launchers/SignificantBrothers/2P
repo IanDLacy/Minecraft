@@ -14,7 +14,7 @@ ln -sT /mnt/TmpFS/ ~/Minecraft/Environment/World
 cd ~/Minecraft/Environment/
 
 # Update Server Properties
-cat ./ServerProperties ./8P > ./server.properties
+cat ./ServerProperties ./2P > ./server.properties
 
 # Start Minecraft Server
 sudo java -jar ./Server --nogui --bonusChest --universe ./ --world World
