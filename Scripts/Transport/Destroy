@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo umount /mnt/Transport/
+sudo rmdir /mnt/Transport/
