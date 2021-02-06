@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2021-02-06 02:54:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2021-02-05 02:05:50 +0000"
@@ -330,6 +336,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2021-02-06 03:09:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2021-02-04 02:28:30 +0000"
@@ -396,6 +408,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2021-02-06 02:29:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2021-01-29 02:44:22 +0000"
@@ -435,6 +453,12 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2021-02-01 01:09:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2021-02-06 03:09:18 +0000"
     },
     "done": true
   },
@@ -599,6 +623,12 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2021-02-01 01:09:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_leggings": "2021-02-06 02:29:42 +0000"
     },
     "done": true
   },
@@ -986,6 +1016,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_leggings": "2021-02-06 02:29:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:skeleton": "2021-01-29 03:50:55 +0000"
@@ -1026,6 +1062,7 @@
     "criteria": {
       "minecraft:forest": "2021-01-27 02:48:04 +0000",
       "minecraft:river": "2021-01-28 01:31:46 +0000",
+      "minecraft:wooded_hills": "2021-02-06 02:58:41 +0000",
       "minecraft:plains": "2021-01-27 02:42:45 +0000"
     },
     "done": false
@@ -1177,6 +1214,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2021-01-29 02:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2021-02-06 02:54:46 +0000"
     },
     "done": true
   },
