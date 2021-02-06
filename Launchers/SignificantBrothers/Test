@@ -1,11 +1,28 @@
 #!/bin/sh
 
-# Create RAM Disk
-#~/Minecraft/Scripts/TmpFS/MakeDirectory
-#~/Minecraft/Scripts/TmpFS/Mount
+# Remove Completed Launch Indicator
+rm ~/.Minecraft/LaunchCompleted
+
+# Create Cache Disk
+~/Minecraft/Scripts/Cache/Format
+
+# Mount Cache Disk
+~/Minecraft/Scripts/Cache/Mount
+
+# Create Swap
+~/Minecraft/Scripts/Swap/Create
+
+# Start Swap
+~/Minecraft/Scripts/Swap/Start
+
+# Mount RAM Disk
+~/Minecraft/Scripts/TmpFS/Mount
+
+# Mount Storage Disk
+~/Minecraft/Scripts/Storage/Mount
 
 # Load World Into RAM Disk
-sudo cp -r ~/Minecraft/Worlds/SignificantBrothers/* /mnt/TmpFS/
+sudo cp -r /mnt/Storage/SignificantBrothers/* /mnt/TmpFS/
 
 # Create Temporary Environment
 ln -sT ~/.Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
@@ -41,3 +58,6 @@ unlink ~/Minecraft/Environment
 
 # Automatic Git
 #~/Minecraft/Scripts/Git/AddCommitPush
+
+# Indicate Completed Launch
+touch ~/.Minecraft/LaunchCompleted
