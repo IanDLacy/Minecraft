@@ -5,6 +5,6 @@ online-mode=true
 prevent-proxy-connections=false
 function-permission-level=4
 op-permission-level=4
-broadcast-console-to-ops=false
+broadcast-console-to-ops=true
 player-idle-timeout=10
 rate-limit=0

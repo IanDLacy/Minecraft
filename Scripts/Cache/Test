@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# RCon Save-Off
+~/Minecraft/Scripts/RemoteConsole/rcon-cli save-off
+
+# RCon Save-All
+~/Minecraft/Scripts/RemoteConsole/rcon-cli save-all
+
+# Copy RAM Disk To Cache Disk
+cp -r /mnt/TmpFS/ /mnt/Cache/$(date +%H%M)/
+
+# Replace Storage With RAM Disk
+rm -rf /mnt/Storage/SignificantBrothers/
+cp -r /mnt/TmpFS/ /mnt/Storage/SignificantBrothers/
+
+# Replace Repository With RAM Disk
+rm -rf ~/Minecraft/Worlds/SignificantBrothers/
+cp -r /mnt/TmpFS/ ~/Minecraft/Worlds/SignificantBrothers/
+
+# RCon Save-On
+~/Minecraft/Scripts/RemoteConsole/rcon-cli save-on

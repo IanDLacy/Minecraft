@@ -43,12 +43,12 @@ cat ./Configuration/ServerIdentity >> ./server.properties
 cat ./Configuration/WorldGeneration >> ./server.properties
 
 # Start Minecraft Server
-sudo java -jar ./Server --nogui --bonusChest --universe ./ --world World
+sudo java -jar ./Server --nogui --bonusChest --universe ./ --world World &
 
 # Destroy Temporary Environment
-unlink ~/Minecraft/Environment/World
-unlink ~/Minecraft/Environment/Server
-unlink ~/Minecraft/Environment
+#unlink ~/Minecraft/Environment/World
+#unlink ~/Minecraft/Environment/Server
+#unlink ~/Minecraft/Environment
 
 # Unload World From RAM Disk
 #sudo cp -r /mnt/TmpFS/* ~/Minecraft/Worlds/SignificantBrothers/
