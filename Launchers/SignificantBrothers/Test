@@ -4,25 +4,28 @@
 rm ~/.Minecraft/LaunchCompleted
 
 # Create Cache Disk
-~/Minecraft/Scripts/Cache/Format
+#~/Minecraft/Scripts/Cache/Format
 
 # Mount Cache Disk
-~/Minecraft/Scripts/Cache/Mount
+#~/Minecraft/Scripts/Cache/Mount
 
 # Create Swap
-~/Minecraft/Scripts/Swap/Create
+#~/Minecraft/Scripts/Swap/Create
 
 # Start Swap
-~/Minecraft/Scripts/Swap/Start
+#~/Minecraft/Scripts/Swap/Start
 
 # Mount RAM Disk
-~/Minecraft/Scripts/TmpFS/Mount
+#~/Minecraft/Scripts/TmpFS/Mount
 
 # Mount Storage Disk
-~/Minecraft/Scripts/Storage/Mount
+#~/Minecraft/Scripts/Storage/Mount
 
 # Load World Into RAM Disk
-sudo cp -r /mnt/Storage/SignificantBrothers/* /mnt/TmpFS/
+#sudo cp -r /mnt/Storage/SignificantBrothers/* /mnt/TmpFS/
+
+# Load Crontab
+crontab ~/Minecraft/Scripts/Cron/Crontab.New
 
 # Create Temporary Environment
 ln -sT ~/.Minecraft/Environments/SignificantBrothers/ ~/Minecraft/Environment
@@ -51,7 +54,7 @@ sudo java -jar ./Server --nogui --bonusChest --universe ./ --world World &
 #unlink ~/Minecraft/Environment
 
 # Unload World From RAM Disk
-#sudo cp -r /mnt/TmpFS/* ~/Minecraft/Worlds/SignificantBrothers/
+#sudo cp -r /mnt/TmpFS/* ~/mnt/Storage/SignificantBrothers/
 
 # Destroy RAM Disk
 #~/Minecraft/Scripts/TmpFS/Unmount
